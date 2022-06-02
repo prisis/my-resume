@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+
+.eslintcache
+.env.local
+.tsbuildinfo
+
+# Keep your personal resume.json private
+# resume.json
+
+resume.private.json
