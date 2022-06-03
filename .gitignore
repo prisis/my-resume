@@ -9,3 +9,5 @@ coverage/
 # resume.json
 
 resume.private.json
+
+dist

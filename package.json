@@ -8,6 +8,7 @@
         "clean": "rm -rf node_modules && rm -rf dist",
         "commit": "cz",
         "dev": "vite",
+        "download:resume": "esno ./bin/download-resume-gist.ts",
         "lint": "pnpm run lint:text && pnpm run lint:prettier && pnpm run lint:eslint",
         "lint:eslint": "cross-env NO_LOGS=true eslint . --ext js,jsx,ts,tsx --max-warnings=0 --config .eslintrc.cjs --cache --cache-strategy content .",
         "lint:eslint:fix": "pnpm run lint:eslint --fix",
@@ -26,11 +27,11 @@
         "ajv": "^8.11.0",
         "ajv-formats": "^2.1.1",
         "date-fns": "^2.28.0",
+        "deepmerge": "^4.2.2",
         "esno": "^0.16.3",
         "gravatar": "^1.8.2",
         "lodash.capitalize": "^4.2.1",
-        "puppeteer": "^14.1.2",
-        "resume-cli": "^3.0.7"
+        "puppeteer": "^14.1.2"
     },
     "devDependencies": {
         "@anolilab/eslint-config": "^4.0.7",

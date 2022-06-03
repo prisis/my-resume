@@ -18,7 +18,7 @@ This is the theme repository for the [Json Resume](https://jsonresume.org/) proj
 
 ## Installation
 
-This project uses [pnpm](https://pnpm.io/) and [resume-cli](https://github.com/jsonresume/resume-cli) for all its internal build processes. In theory, this project requires at lest Node v16 to run.
+This project uses [pnpm](https://pnpm.io/), [vitejs](https://vitejs.dev/) and [vitest](https://vitest.dev/) for all its internal build processes. In theory, this project requires at lest Node v16 to run.
 
 ## Quick Commands
 
@@ -38,20 +38,6 @@ It’s highly **recommended** to create your own `resume.json` for your own resu
 ```
 
 Please review the [schema here](https://jsonresume.org/schema/) when creating your `resume.json`.
-
-## Ignoring changes in resume.json
-
-If you want to change the theme but don’t necessarily want to propagate the changes made in resume.json, you can untrack that file by running the following command:
-
-```bash
-git update-index --assume-unchanged resume.json
-```
-
-If you want to track the file again, you can run:
-
-```bash
-git update-index --no-assume-unchanged resume.json
-```
 
 ## Generating an résumé locally
 
