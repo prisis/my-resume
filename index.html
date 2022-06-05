@@ -15,7 +15,7 @@
     <body class="body-font font-noto-sans antialiased w-full dark:text-white dark:bg-zinc-900 scroll-smooth" itemscope itemtype="http://schema.org/Person">
         <div class="container mx-auto max-w-screen-xl">
             <div class="flex flex-col sm:flex-row mt-5 md:mt-12">
-                <nav class="w-full sm:max-w-sm mb-5">
+                <nav class="w-full sm:max-w-sm mb-5 pl-5">
                     {{#resume.basics}}
                     <div>
                         <div>
@@ -351,10 +351,12 @@
                                     <span class="ml-2 flex-1 w-0 truncate">resume.pdf</span>
                                 </div>
                                 <div class="ml-4 flex-shrink-0">
-                                    <a href="./resume.pdf" class="font-medium text-indigo-600 hover:text-indigo-500" title="Download">Download</a>
+                                    <a href="./resume.pdf" class="font-medium text-indigo-600 hover:text-indigo-500" title="Download" download>Download</a>
                                 </div>
                             </li>
                         </ul>
+
+                        <div class="text-center text-md my-5 print:hidden"><a href="https://danielbannert.com/impress" class="text-center my-5" title="Impress" target="_blank" rel="noopener noreferrer">Impress</a></div>
 
                         <div class="text-center mb-5 text-md text-zinc-500 text-xs print:hidden">Last updated at {{getBuildDate ''}}</div>
                     </div>
