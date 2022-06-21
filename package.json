@@ -70,6 +70,7 @@
         "underscore.string": "^3.3.6",
         "vite": "^2.9.12",
         "vite-plugin-handlebars": "^1.6.0",
-        "vitest": "^0.15.2"
+        "vitest": "^0.15.2",
+        "vite-plugin-favicon2": "^1.1.4"
     }
 }

@@ -3,6 +3,8 @@ import deepmerge from "deepmerge";
 // @ts-ignore
 import Handlebars from "handlebars";
 import { defineConfig, loadEnv } from "vite";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { ViteFaviconsPlugin } from "vite-plugin-favicon2";
 import handlebars from "vite-plugin-handlebars";
 
 import formatter from "./src/formatter";
@@ -98,6 +100,10 @@ export default defineConfig(async ({ mode }) => {
                         return "";
                     },
                 },
+            }),
+            ViteFaviconsPlugin({
+                logo: "src/assets/favicon.svg",
+                inject: true,
             }),
         ],
     };
