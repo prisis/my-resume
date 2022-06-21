@@ -30,7 +30,7 @@ export default async function htmlToPdf(htmlPath: string, assets: string[], expo
             return `<style>${fs.readFileSync(asset).toString()}</style>`;
         }
 
-        return `<script>${fs.readFileSync(asset).toString()}</script>`;
+        return "";
     });
 
     // eslint-disable-next-line no-console
@@ -41,7 +41,7 @@ export default async function htmlToPdf(htmlPath: string, assets: string[], expo
             .toString()
             .replaceAll(/<link.*>/gm, "")
             .replace("</title>", `</title>${transformedAssets.join("")}`),
-        { waitUntil: ["load", "domcontentloaded", "networkidle0", "networkidle2"] },
+        { waitUntil: ["domcontentloaded"] },
     );
     // eslint-disable-next-line no-console
     console.log("Generating PDF...");
