@@ -2,6 +2,7 @@
     "name": "@anolilab/resume",
     "version": "0.0.0",
     "private": true,
+    "description": "My personal resume",
     "scripts": {
         "build": "tsc && cross-env NODE_ENV='production' vite build",
         "build:pdf": "esno ./bin/build-pdf.ts",
@@ -69,8 +70,8 @@
         "typescript": "^4.7.4",
         "underscore.string": "^3.3.6",
         "vite": "^2.9.12",
+        "vite-plugin-favicon2": "^1.1.4",
         "vite-plugin-handlebars": "^1.6.0",
-        "vitest": "^0.15.2",
-        "vite-plugin-favicon2": "^1.1.4"
+        "vitest": "^0.15.2"
     }
 }
