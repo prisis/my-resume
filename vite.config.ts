@@ -6,6 +6,8 @@ import { defineConfig, loadEnv } from "vite";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { ViteFaviconsPlugin } from "vite-plugin-favicon2";
 import handlebars from "vite-plugin-handlebars";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { viteStaticCopy } from "vite-plugin-static-copy";
 
 import formatter from "./src/formatter";
 import validate from "./src/validate";
@@ -102,8 +104,16 @@ export default defineConfig(async ({ mode }) => {
                 },
             }),
             ViteFaviconsPlugin({
-                logo: "src/assets/favicon.svg",
+                logo: "assets/favicon.svg",
                 inject: true,
+            }),
+            viteStaticCopy({
+                targets: [
+                    {
+                        src: "assets/robots.txt",
+                        dest: "",
+                    },
+                ],
             }),
         ],
     };
