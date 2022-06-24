@@ -1,8 +1,13 @@
 {
-    "name": "@anolilab/resume",
+    "name": "@danielbannert/resume",
     "version": "0.0.0",
     "private": true,
     "description": "My personal resume",
+    "author": {
+        "name": "Daniel Bannert",
+        "email": "d.bannert@anolilab.de",
+        "url": "https://www.danielbannert.com"
+    },
     "scripts": {
         "build": "tsc && cross-env NODE_ENV='production' vite build",
         "build:pdf": "esno ./bin/build-pdf.ts",
