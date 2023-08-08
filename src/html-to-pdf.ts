@@ -6,7 +6,7 @@ const setupBrowser = async (): Promise<Browser> => {
     try {
         return await puppeteer.launch({
             args: [],
-            headless: true,
+            headless: "new",
         });
     } catch {
         // eslint-disable-next-line no-console
