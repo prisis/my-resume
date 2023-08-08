@@ -28,7 +28,6 @@ themeToggleButton?.addEventListener("click", () => {
             document.documentElement.classList.remove("dark");
             localStorage.setItem(STORAGE_KEY, "light");
         }
-
         // if NOT set via local storage previously
     } else if (document.documentElement.classList.contains("dark")) {
         document.documentElement.classList.remove("dark");
