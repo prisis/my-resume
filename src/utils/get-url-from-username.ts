@@ -30,9 +30,9 @@ export default function getUrlFromUsername(site: string, username: string): stri
 
     if (lowerSiteName === "reddit" || lowerSiteName === "spotify") {
         // eslint-disable-next-line security/detect-object-injection
-        return `//open.${urlMap[site]}/user/${username}`;
+        return `//open.${urlMap[site] as string}/user/${username}`;
     }
 
     // eslint-disable-next-line security/detect-object-injection
-    return `//${urlMap[site]}/${username}`;
+    return `//${urlMap[site] as string}/${username}`;
 }

@@ -1,12 +1,13 @@
 import fs from "node:fs";
+
 import type { Browser } from "puppeteer";
-import puppeteer from "puppeteer";
+import { launch } from "puppeteer";
 
 const setupBrowser = async (): Promise<Browser> => {
     try {
-        return await puppeteer.launch({
+        return await launch({
             args: [],
-            headless: "new",
+            headless: true,
         });
     } catch {
         // eslint-disable-next-line no-console

@@ -40,7 +40,7 @@ It’s highly **recommended** to create your own `resume.json` for your own rés
 # resume.private.json
 ```
 
-Please review the [schema here](https://jsonresume.org/schema/) when creating your `resume.json`.
+Please review the [schema here](https://jsonresume.org/schema) when creating your `resume.json`.
 
 ## Developing your résumé
 
@@ -92,7 +92,7 @@ specified in `resume.private.json`. (For example, phone numbers.)
 ## Supported Node.js Versions
 
 Libraries in this ecosystem make the best effort to track
-[Node.js’ release schedule](https://nodejs.org/en/about/releases/). Here’s [a
+[Node.js’ release schedule](https://nodejs.org/en/about/previous-releases). Here’s [a
 post on why we think this is important](https://medium.com/the-node-js-collection/maintainers-should-consider-following-node-js-release-schedule-ab08ed4de71a).
 
 ## Contributing

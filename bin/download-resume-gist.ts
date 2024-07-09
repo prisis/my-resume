@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import { env } from "node:process";
+
 import { Octokit } from "@octokit/rest";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { loadEnv } from "vite";
@@ -33,7 +34,7 @@ octokit.rest.gists
         process.exit(0);
     })
     // eslint-disable-next-line unicorn/prefer-top-level-await
-    .catch((error) => {
+    .catch((error: unknown) => {
         // eslint-disable-next-line no-console
         console.error(error);
         // eslint-disable-next-line unicorn/no-process-exit

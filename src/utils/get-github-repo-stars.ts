@@ -1,4 +1,5 @@
 import { env } from "node:process";
+
 import type { RestEndpointMethodTypes } from "@octokit/rest";
 import { Octokit } from "@octokit/rest";
 
@@ -15,7 +16,7 @@ export default async function getRepoStars(url: string): Promise<number | undefi
     // eslint-disable-next-line security/detect-object-injection
     if (githubRepoCache[ownerAndRepo]) {
         // eslint-disable-next-line security/detect-object-injection
-        return githubRepoCache[ownerAndRepo]?.stargazers_count;
+        return githubRepoCache[ownerAndRepo].stargazers_count;
     }
 
     // Compare: https://docs.github.com/en/rest/reference/repos/#list-organization-repositories
@@ -31,7 +32,7 @@ export default async function getRepoStars(url: string): Promise<number | undefi
 
             return data.stargazers_count;
         })
-        .catch((error) => {
+        .catch((error: unknown) => {
             // eslint-disable-next-line no-console
             console.error(error);
 

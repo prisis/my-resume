@@ -3,7 +3,7 @@ import { format, formatDuration, intervalToDuration } from "date-fns";
 // eslint-disable-next-line no-restricted-imports
 import capitalize from "lodash.capitalize";
 
-import { SocialSites, getGithubRepoStars, getNetwork, getUrlFromUsername } from "./utils";
+import { getGithubRepoStars, getNetwork, getUrlFromUsername, SocialSites } from "./utils";
 import getGravatarUrl from "./utils/get-gravatar-url";
 
 const dateFormat = "MMM yyyy";
@@ -138,7 +138,7 @@ const formatter = async (resume: ResumeSchema): Promise<ResumeSchema> => {
         }
     });
 
-    // eslint-disable-next-line no-restricted-syntax
+    // eslint-disable-next-line no-restricted-syntax,no-loops/no-loops
     for (const project of resume.projects ?? []) {
         if (project.githubUrl) {
             // eslint-disable-next-line no-await-in-loop
