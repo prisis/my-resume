@@ -1,4 +1,4 @@
-import schema from "@anolilab/resume-schema/schema.json" assert { type: "json" };
+import schema from "@anolilab/resume-schema/schema.json" with { type: "json" };
 import { Ajv } from "ajv";
 import addFormats from "ajv-formats";
 
