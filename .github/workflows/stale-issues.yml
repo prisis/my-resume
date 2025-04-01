@@ -13,7 +13,7 @@ jobs:
         runs-on: "ubuntu-latest"
 
         steps:
-            - uses: "actions/stale@v5"
+            - uses: "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06" # v5
               with:
                   repo-token: "${{ secrets.GITHUB_TOKEN }}"
                   stale-issue-message: |
@@ -32,7 +32,7 @@ jobs:
         runs-on: "ubuntu-latest"
 
         steps:
-            - uses: "actions/stale@v5"
+            - uses: "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06" # v5
               with:
                   repo-token: "${{ secrets.GITHUB_TOKEN }}"
                   stale-issue-message: |
@@ -47,7 +47,7 @@ jobs:
         timeout-minutes: 1
         runs-on: "ubuntu-latest"
         steps:
-            - uses: "actions/stale@v5"
+            - uses: "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06" # v5
               with:
                   repo-token: "${{ secrets.GITHUB_TOKEN }}"
                   stale-issue-message: |
@@ -64,7 +64,7 @@ jobs:
         runs-on: "ubuntu-latest"
 
         steps:
-            - uses: "actions/stale@v5"
+            - uses: "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06" # v5
               with:
                   repo-token: "${{ secrets.GITHUB_TOKEN }}"
                   stale-issue-message: |
