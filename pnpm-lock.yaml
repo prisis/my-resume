@@ -12,11 +12,11 @@ importers:
         specifier: 2.0.3
         version: 2.0.3
       '@fontsource/noto-sans-sc':
-        specifier: ^5.2.5
-        version: 5.2.5
+        specifier: ^5.2.6
+        version: 5.2.6
       '@fontsource/nunito':
-        specifier: ^5.2.5
-        version: 5.2.5
+        specifier: ^5.2.6
+        version: 5.2.6
       '@octokit/rest':
         specifier: ^21.1.1
         version: 21.1.1
@@ -842,11 +842,11 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource/noto-sans-sc@5.2.5':
-    resolution: {integrity: sha512-rYAl3Alcjo2PnI0sqzRfnA022H8yWePNrjYalApQwYE+fFlaXmD6Mm3E9wmJCpmJM8clwhQWq/E8IlPl1bmZHQ==}
+  '@fontsource/noto-sans-sc@5.2.6':
+    resolution: {integrity: sha512-hk0xVQ+mL/W0rXDhBhud2U5te/slsQKcaU+3Ni6ZxeFP1jJmcNmxHEZOG5DjLBOi0L//0R5Nwvn6ebTiZrwVZw==}
 
-  '@fontsource/nunito@5.2.5':
-    resolution: {integrity: sha512-KeB3US1uHB3GpVo0FewYRtHpG+UZJiRqu4xzvCRkZ8ceJPTx7lf0ZsKKWpvXCMALUJSeaD/ol/BSvLaqli5ZRQ==}
+  '@fontsource/nunito@5.2.6':
+    resolution: {integrity: sha512-FjSPmzBFZ3za4w2USmCWrxDaZ1fTWowSpV9DXfs7Ll/150BI48epE6E69MtOx8GqOPimHNkVUkES22lqDw+bug==}
 
   '@html-eslint/eslint-plugin@0.20.0':
     resolution: {integrity: sha512-P5DeuqL5TmIGIiWjeezGDZPM3rXzL715MEU0QR9xOOmqNTshG3yLsk7fkfLsLiDjm0x6r4e13/5mUCbEQTek7Q==}
@@ -3340,6 +3340,7 @@ packages:
   eslint-plugin-markdown@3.0.1:
     resolution: {integrity: sha512-8rqoc148DWdGdmYF6WSQFT3uQ6PO7zXYgeBpHAOAakX/zpq+NvFYbDA/H7PYzHajwtmaOzAwfxyl++x0g1/N9A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
 
@@ -6481,7 +6482,7 @@ packages:
   puppeteer@24.4.0:
     resolution: {integrity: sha512-E4JhJzjS8AAI+6N/b+Utwarhz6zWl3+MR725fal+s3UlOlX2eWdsvYYU+Q5bXMjs9eZEGkNQroLkn7j11s2k1Q==}
     engines: {node: '>=18'}
-    deprecated: < 24.9.0 is no longer supported
+    deprecated: < 24.10.2 is no longer supported
     hasBin: true
 
   qs@6.5.3:
@@ -8810,9 +8811,9 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@fontsource/noto-sans-sc@5.2.5': {}
+  '@fontsource/noto-sans-sc@5.2.6': {}
 
-  '@fontsource/nunito@5.2.5': {}
+  '@fontsource/nunito@5.2.6': {}
 
   '@html-eslint/eslint-plugin@0.20.0': {}
 
