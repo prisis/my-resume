@@ -26,6 +26,7 @@
         "lint:text:fix": "textlint ./.github/ISSUE_TEMPLATE/** ./README.md ./UPGRADE.md --experimental --fix",
         "prepare": "is-ci || (node verify-node-version.cjs && pnpx only-allow pnpm && husky)",
         "serve": "vite preview",
+        "prebuild": "npx puppeteer browsers install chrome",
         "sort-package-json": "sort-package-json",
         "test": "vitest",
         "test:coverage": "vitest run --coverage"

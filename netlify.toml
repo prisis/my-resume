@@ -2,5 +2,5 @@
 command = "pnpm run download:resume && pnpm run build && pnpm run build:pdf"
 publish = "dist"
 
-[build.environment]
-NODE_VERSION = "18"
+[[plugins]]
+package = "netlify-plugin-chromium"
