@@ -1,6 +1,6 @@
 # https://help.github.com/en/categories/automating-your-workflow-with-github-actions
 
-name: "Close stale issues"
+name: Close stale issues
 
 on: # yamllint disable-line rule:truthy
     schedule:
@@ -10,7 +10,7 @@ jobs:
     default:
         timeout-minutes: 1
 
-        runs-on: "ubuntu-latest"
+        runs-on: ubuntu-latest
 
         steps:
             - uses: "actions/stale@6f05e4244c9a0b2ed3401882b05d701dd0a7289b" # v7
@@ -20,7 +20,7 @@ jobs:
                       This issue has been automatically marked as stale because it has been open for 21 days with no activity. It will be closed in 7 days if no further activity (Remove label or comment) occurs.
                       If we missed this issue please reply to keep it active.
                       Thanks for being a part of this project. 🙏
-                  stale-issue-label: "Stale"
+                  stale-issue-label: Stale
                   remove-stale-when-updated: true
                   exempt-issue-labels: "Added,Enhancement,Changed,Deprecated,Fixed,Removed,Security,Status: Help wanted,Status: Needs Work,Status: Waiting for feedback,Type: Unconfirmed,Type: Bug"
                   days-before-stale: 21
@@ -29,7 +29,7 @@ jobs:
     invalid:
         timeout-minutes: 1
 
-        runs-on: "ubuntu-latest"
+        runs-on: ubuntu-latest
 
         steps:
             - uses: "actions/stale@6f05e4244c9a0b2ed3401882b05d701dd0a7289b" # v7
@@ -38,14 +38,14 @@ jobs:
                   stale-issue-message: |
                       This issue has been automatically marked as stale because it has been labeled as invalid.
                       Thanks for being a part of this project. 🙏
-                  stale-issue-label: "Stale"
+                  stale-issue-label: Stale
                   only-labels: "Type: Unconfirmed"
                   days-before-stale: 1
                   days-before-close: 2
 
     duplicate:
         timeout-minutes: 1
-        runs-on: "ubuntu-latest"
+        runs-on: ubuntu-latest
         steps:
             - uses: "actions/stale@6f05e4244c9a0b2ed3401882b05d701dd0a7289b" # v7
               with:
@@ -53,15 +53,15 @@ jobs:
                   stale-issue-message: |
                       This issue has been automatically marked as stale because it has been labeled as duplicate.
                       Thanks for being a part of this project. 🙏
-                  stale-issue-label: "Stale"
-                  only-labels: "Duplicate"
+                  stale-issue-label: Stale
+                  only-labels: Duplicate
                   days-before-stale: 1
                   days-before-close: 2
 
     wontfix:
         timeout-minutes: 1
 
-        runs-on: "ubuntu-latest"
+        runs-on: ubuntu-latest
 
         steps:
             - uses: "actions/stale@6f05e4244c9a0b2ed3401882b05d701dd0a7289b" # v7
@@ -70,7 +70,7 @@ jobs:
                   stale-issue-message: |
                       This issue has been automatically marked as stale because it has been labeled as wontfix.
                       Thanks for being a part of this project. 🙏
-                  stale-issue-label: "Stale"
+                  stale-issue-label: Stale
                   only-labels: "Type: Wontfix"
                   days-before-stale: 1
                   days-before-close: 2

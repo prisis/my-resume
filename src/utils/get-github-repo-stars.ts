@@ -9,13 +9,11 @@ const octokit = new Octokit({
 
 const githubRepoCache: Record<string, RestEndpointMethodTypes["repos"]["listForOrg"]["response"] & { stargazers_count?: number }> = {};
 
-export default async function getRepoStars(url: string): Promise<number | undefined> {
+export default async function getGithubRepoStars(url: string): Promise<number | undefined> {
     const ownerAndRepo = url.replace("https://github.com/", "");
     const [owner, repo]: string[] = ownerAndRepo.split("/");
 
-    // eslint-disable-next-line security/detect-object-injection
     if (githubRepoCache[ownerAndRepo]) {
-        // eslint-disable-next-line security/detect-object-injection
         return githubRepoCache[ownerAndRepo].stargazers_count;
     }
 
@@ -27,7 +25,7 @@ export default async function getRepoStars(url: string): Promise<number | undefi
         })
         .then(({ data }) => {
             // @ts-expect-error TODO find the correct type for this
-            // eslint-disable-next-line security/detect-object-injection
+
             githubRepoCache[ownerAndRepo] = data;
 
             return data.stargazers_count;

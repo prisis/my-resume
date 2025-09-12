@@ -28,7 +28,6 @@ export default async function htmlToPdf(htmlPath: string, assets: string[], expo
 
     const transformedAssets = assets.map((asset) => {
         if (asset.includes(".css")) {
-            // eslint-disable-next-line security/detect-non-literal-fs-filename
             return `<style>${fs.readFileSync(asset).toString()}</style>`;
         }
 
@@ -38,7 +37,6 @@ export default async function htmlToPdf(htmlPath: string, assets: string[], expo
     // eslint-disable-next-line no-console
     console.log("Opening page...");
     await page.setContent(
-        // eslint-disable-next-line security/detect-non-literal-fs-filename
         fs
             .readFileSync(htmlPath)
             .toString()
@@ -65,7 +63,6 @@ export default async function htmlToPdf(htmlPath: string, assets: string[], expo
         // eslint-disable-next-line no-console
         console.log("Saving file...");
 
-        // eslint-disable-next-line security/detect-non-literal-fs-filename
         fs.writeFileSync(exportPath, pdf);
 
         // eslint-disable-next-line no-console

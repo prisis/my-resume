@@ -1,7 +1,7 @@
 # https://github.com/probot/settings
 
 branches:
-    - name: "main"
+    - name: main
 
       # https://docs.github.com/en/rest/reference/repos#delete-branch-protection
       # https://docs.github.com/en/rest/reference/repos#update-branch-protection
@@ -26,8 +26,8 @@ branches:
               # Set to null to disable when using this configuration for a repository on a personal account.
 
               apps:
-                  - "semantic-release-bot"
-                  - "renovate"
+                  - semantic-release-bot
+                  - renovate
               teams: []
 #               users: []
 
@@ -35,66 +35,66 @@ branches:
 # https://docs.github.com/en/rest/reference/issues#update-a-label
 
 labels:
-    - name: "Added"
-      description: "Changelog Added"
-      color: "90db3f"
+    - name: Added
+      description: Changelog Added
+      color: 90db3f
 
-    - name: "Changed"
-      description: "Changelog Changed"
-      color: "fbca04"
+    - name: Changed
+      description: Changelog Changed
+      color: fbca04
 
-    - name: "Dependency update"
-      description: "Pull requests that update a dependency file"
-      color: "e1f788"
+    - name: Dependency update
+      description: Pull requests that update a dependency file
+      color: e1f788
 
-    - name: "Deprecated"
-      description: "Changelog Deprecated"
-      color: "1d76db"
+    - name: Deprecated
+      description: Changelog Deprecated
+      color: 1d76db
 
-    - name: "Duplicate"
+    - name: Duplicate
       color: "000000"
 
-    - name: "Enhancement"
-      color: "d7e102"
+    - name: Enhancement
+      color: d7e102
 
-    - name: "Stale"
+    - name: Stale
       color: "000000"
 
-    - name: "Fixed"
-      description: "Changelog Fixed"
-      color: "9ef42e"
+    - name: Fixed
+      description: Changelog Fixed
+      color: 9ef42e
 
-    - name: "Removed"
-      description: "Changelog Removed"
-      color: "e99695"
+    - name: Removed
+      description: Changelog Removed
+      color: e99695
 
-    - name: "Security"
-      description: "Changelog Security"
-      color: "ed3e3b"
+    - name: Security
+      description: Changelog Security
+      color: ed3e3b
 
     - name: "Status: Good first issue"
-      color: "d7e102"
+      color: d7e102
 
     - name: "Status: Help wanted"
-      color: "85d84e"
+      color: 85d84e
 
     - name: "Status: Needs Work"
-      color: "fad8c7"
+      color: fad8c7
 
     - name: "Status: Waiting for feedback"
-      color: "fef2c0"
+      color: fef2c0
 
     - name: "Type: BC Break"
-      color: "b60205"
+      color: b60205
 
     - name: "Type: Bug"
-      color: "b60205"
+      color: b60205
 
     - name: "Type: Critical"
-      color: "ff8c00"
+      color: ff8c00
 
     - name: "Type: RFC"
-      color: "fbca04"
+      color: fbca04
 
     - name: "Type: Unconfirmed"
       color: "444444"
@@ -102,8 +102,8 @@ labels:
     - name: "Type: Wontfix"
       color: "000000"
 
-    - name: "semantic-release"
-      color: "ff0000"
+    - name: semantic-release
+      color: ff0000
 
 # https://docs.github.com/en/rest/reference/repos#update-a-repository
 
@@ -112,16 +112,16 @@ repository:
     allow_rebase_merge: false
     allow_squash_merge: false
     archived: false
-    default_branch: "main"
+    default_branch: main
     delete_branch_on_merge: true
     is_template: true
-    description: "Template to create your own resume"
+    description: Template to create your own resume
     has_downloads: true
     has_issues: true
     has_pages: false
     has_projects: false
     has_wiki: false
-    name: "resume"
+    name: resume
     private: false
 
     # https://developer.github.com/v3/repos/branches/#remove-branch-protection

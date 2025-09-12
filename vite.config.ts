@@ -44,7 +44,6 @@ export default defineConfig(async (config: UserConfig): Promise<Omit<UserConfig,
 
     return {
         plugins: [
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-call
             handlebars({
                 context: {
                     resume: await formatter(deepmerge(resumeData, privateResumeData) as ResumeSchema),
@@ -53,20 +52,19 @@ export default defineConfig(async (config: UserConfig): Promise<Omit<UserConfig,
                     breaklines(text: string) {
                         let escapedText = Handlebars.Utils.escapeExpression(text);
 
-                        // eslint-disable-next-line regexp/no-unused-capturing-group
                         escapedText = escapedText.replaceAll(/(\r\n|\n|\r)/g, "<br>");
 
                         return new Handlebars.SafeString(escapedText);
                     },
+
                     /**
-                     * Register a debug helper for Handlebars to be able to log data or inspect data in the browser console
+                     * Register a debug helper for Handlebars to be able to log data or inspect data in the browser console.
                      *
                      * Usage:
-                     *   {{debug someObj.data}} => logs someObj.data to the console
-                     *   {{debug someObj.data true}} => logs someObj.data to the console and stops at a debugger point
-                     *
-                     * @param {any} data data to log to console
-                     * @param {boolean} breakpoint or not to set a breakpoint to inspect current state in debugger
+                     * {{debug someObj.data}} => logs someObj.data to the console
+                     * {{debug someObj.data true}} => logs someObj.data to the console and stops at a debugger point
+                     * @param data data to log to console
+                     * @param breakpoint or not to set a breakpoint to inspect current state in debugger
                      */
                     // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     debug(data: any, breakpoint: boolean) {
