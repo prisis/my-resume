@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/first-interaction@v1
+            - uses: actions/first-interaction@2d4393e6bc0e2efb2e48fba7e06819c3bf61ffc9 # v2
               with:
                   repo-token: "${{ secrets.GITHUB_TOKEN }}"
                   issue-message: "Awesome! Thank you for taking the time to create your first issue! Please review the [guidelines](https://narrowspark.com/docs/current/contributing)"
