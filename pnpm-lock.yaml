@@ -80,7 +80,7 @@ importers:
         version: 16.3.0(@eslint/css@0.11.0)(@types/node@22.13.11)(@typescript-eslint/eslint-plugin@8.43.0(@typescript-eslint/parser@8.43.0(eslint@9.35.0(jiti@2.4.2))(typescript@5.9.2))(eslint@9.35.0(jiti@2.4.2))(typescript@5.9.2))(@typescript-eslint/utils@8.43.0(eslint@9.35.0(jiti@2.4.2))(typescript@5.9.2))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.43.0(eslint@9.35.0(jiti@2.4.2))(typescript@5.9.2))(eslint@9.35.0(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.35.0(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.35.0(jiti@2.4.2)))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17))(eslint@9.35.0(jiti@2.4.2))(jiti@2.4.2)(typescript@5.9.2)(vitest@3.2.4(@types/node@22.13.11)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.8.1))(yaml@2.8.1)
       '@anolilab/prettier-config':
         specifier: ^6.0.4
-        version: 6.0.4(prettier@3.6.2)
+        version: 6.0.4(prettier@3.7.4)
       '@anolilab/semantic-release-preset':
         specifier: ^11.0.3
         version: 11.0.3(@semantic-release/npm@12.0.2(semantic-release@24.2.8(typescript@5.9.2)))(semantic-release@24.2.8(typescript@5.9.2))(yaml@2.8.1)
@@ -139,8 +139,8 @@ importers:
         specifier: ^16.1.1
         version: 16.1.1(postcss@8.5.6)
       prettier:
-        specifier: ^3.6.2
-        version: 3.6.2
+        specifier: ^3.7.4
+        version: 3.7.4
       semantic-release:
         specifier: ^24.2.8
         version: 24.2.8(typescript@5.9.2)
@@ -5821,6 +5821,7 @@ packages:
   phin@3.7.1:
     resolution: {integrity: sha512-GEazpTWwTZaEQ9RhL7Nyz0WwqilbqgLahDM3D0hxWwmVDI52nXEybHqiN6/elwpkJBhcuj+WbBu+QfT0uhPGfQ==}
     engines: {node: '>= 8'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -6102,8 +6103,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -7812,9 +7813,9 @@ snapshots:
       - vitest
       - yaml
 
-  '@anolilab/prettier-config@6.0.4(prettier@3.6.2)':
+  '@anolilab/prettier-config@6.0.4(prettier@3.7.4)':
     dependencies:
-      prettier: 3.6.2
+      prettier: 3.7.4
 
   '@anolilab/resume-schema@2.0.3': {}
 
@@ -14693,7 +14694,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.6.2: {}
+  prettier@3.7.4: {}
 
   pretty-ms@9.0.0:
     dependencies:
