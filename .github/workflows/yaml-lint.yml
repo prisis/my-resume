@@ -1,6 +1,6 @@
 # https://help.github.com/en/categories/automating-your-workflow-with-github-actions
 
-name: Yaml Lint
+name: "Yaml Lint"
 
 on: # yamllint disable-line rule:truthy
     push:
@@ -14,23 +14,23 @@ on: # yamllint disable-line rule:truthy
 
 jobs:
     yaml-lint:
-        name: Yaml lint
+        name: "Yaml lint"
 
-        runs-on: ubuntu-latest
+        runs-on: "ubuntu-latest"
 
         steps:
-            - name: Git checkout
-              uses: actions/checkout@v3
+            - name: "Git checkout"
+              uses: "actions/checkout@v3"
               with:
                   fetch-depth: 2
               env:
-                  GIT_COMMITTER_NAME: GitHub Actions Shell
-                  GIT_AUTHOR_NAME: GitHub Actions Shell
+                  GIT_COMMITTER_NAME: "GitHub Actions Shell"
+                  GIT_AUTHOR_NAME: "GitHub Actions Shell"
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
-            - name: Lint YAML files
-              uses: ibiqlik/action-yamllint@v3
+            - name: "Lint YAML files"
+              uses: "ibiqlik/action-yamllint@v3"
               with:
-                  config_file: .yamllint.yaml
-                  file_or_dir: .
+                  config_file: ".yamllint.yaml"
+                  file_or_dir: "."
                   strict: true

@@ -1,6 +1,6 @@
 # https://help.github.com/en/categories/automating-your-workflow-with-github-actions
 
-name: Markdown Lint
+name: "Markdown Lint"
 
 on: # yamllint disable-line rule:truthy
     push:
@@ -12,37 +12,37 @@ on: # yamllint disable-line rule:truthy
 
 jobs:
     text-lint:
-        name: Markdown lint
+        name: "Markdown lint"
 
-        runs-on: ubuntu-latest
+        runs-on: "ubuntu-latest"
 
         steps:
-            - name: Git checkout
-              uses: actions/checkout@v3
+            - name: "Git checkout"
+              uses: "actions/checkout@v3"
               with:
                   fetch-depth: 2
               env:
-                  GIT_COMMITTER_NAME: GitHub Actions Shell
-                  GIT_AUTHOR_NAME: GitHub Actions Shell
+                  GIT_COMMITTER_NAME: "GitHub Actions Shell"
+                  GIT_AUTHOR_NAME: "GitHub Actions Shell"
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
-            - name: Use Node.js 16.x
-              uses: actions/setup-node@v3
+            - name: "Use Node.js 16.x"
+              uses: "actions/setup-node@v3"
               with:
-                  node-version: 16.x
+                  node-version: "16.x"
 
-            - uses: pnpm/action-setup@v2.2.2
+            - uses: "pnpm/action-setup@v2.2.2"
               with:
-                  version: 9.15.9
+                  version: "9.15.9"
 
             - name: "Set node version to ${{ matrix.node_version }}"
-              uses: actions/setup-node@v3
+              uses: "actions/setup-node@v3"
               with:
                   node-version: "${{ matrix.node_version }}"
-                  cache: pnpm
+                  cache: "pnpm"
 
-            - name: Install packages
-              run: pnpm install --frozen-lockfile
+            - name: "Install packages"
+              run: "pnpm install --frozen-lockfile"
               env:
                   SKIP_CHECK: "true"
 
