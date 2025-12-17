@@ -18,7 +18,7 @@ jobs:
 
         steps:
             - name: "Git checkout"
-              uses: "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd" # v5
+              uses: "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8" # v6
               with:
                   fetch-depth: 2
               env:
@@ -27,7 +27,7 @@ jobs:
                   EMAIL: "github-actions[bot]@users.noreply.github.com"
 
             - name: "Use Node.js 16.x"
-              uses: "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444" # v5
+              uses: "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f" # v6
               with:
                   node-version: "24.12.0"
 
@@ -36,7 +36,7 @@ jobs:
                   version: "9.15.9"
 
             - name: "Set node version to ${{ matrix.node_version }}"
-              uses: "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444" # v5
+              uses: "actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f" # v6
               with:
                   node-version: "${{ matrix.node_version }}"
                   cache: "pnpm"
