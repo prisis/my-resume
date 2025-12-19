@@ -145,7 +145,7 @@ importers:
         specifier: ^25.0.2
         version: 25.0.2(typescript@5.9.3)
       sort-package-json:
-        specifier: ^3.5.2
+        specifier: ^3.6.0
         version: 3.6.0
       tailwindcss:
         specifier: ^3.4.19
