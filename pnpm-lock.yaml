@@ -80,7 +80,7 @@ importers:
         version: 17.2.0(@eslint/css@0.14.1)(@types/node@22.13.11)(@typescript-eslint/eslint-plugin@8.49.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(@typescript-eslint/utils@8.49.0(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.49.0(eslint@9.39.2(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-react@7.33.1(eslint@9.39.2(jiti@1.21.7)))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.19(tsx@4.19.3)(yaml@2.8.2)))(eslint@9.39.2(jiti@1.21.7))(jiti@1.21.7)(typescript@5.9.3)(vitest@4.0.17(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2))(yaml@2.8.2)
       '@anolilab/prettier-config':
         specifier: ^7.0.0
-        version: 7.0.0(prettier@3.7.4)
+        version: 7.0.0(prettier@3.8.0)
       '@anolilab/semantic-release-preset':
         specifier: ^12.1.2
         version: 12.1.2(@semantic-release/npm@13.1.2(semantic-release@25.0.2(typescript@5.9.3)))(semantic-release@25.0.2(typescript@5.9.3))(yaml@2.8.2)
@@ -139,8 +139,8 @@ importers:
         specifier: ^16.1.1
         version: 16.1.1(postcss@8.5.6)
       prettier:
-        specifier: ^3.7.4
-        version: 3.7.4
+        specifier: ^3.8.0
+        version: 3.8.0
       semantic-release:
         specifier: ^25.0.2
         version: 25.0.2(typescript@5.9.3)
@@ -6341,8 +6341,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.7.4:
-    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
+  prettier@3.8.0:
+    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -8108,9 +8108,9 @@ snapshots:
       - vitest
       - yaml
 
-  '@anolilab/prettier-config@7.0.0(prettier@3.7.4)':
+  '@anolilab/prettier-config@7.0.0(prettier@3.8.0)':
     dependencies:
-      prettier: 3.7.4
+      prettier: 3.8.0
 
   '@anolilab/resume-schema@2.0.3': {}
 
@@ -15170,7 +15170,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.7.4: {}
+  prettier@3.8.0: {}
 
   pretty-ms@9.0.0:
     dependencies:
