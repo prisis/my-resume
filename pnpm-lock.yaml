@@ -166,8 +166,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2)
       vite-plugin-static-copy:
-        specifier: ^3.2.0
-        version: 3.2.0(vite@7.3.1(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2))
+        specifier: ^3.3.0
+        version: 3.3.0(vite@7.3.1(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2))
       vitest:
         specifier: ^4.0.18
         version: 4.0.18(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2)
@@ -7828,8 +7828,8 @@ packages:
   vite-plugin-handlebars@2.0.0:
     resolution: {integrity: sha512-+J3It0nyhPzx4nT1I+fnWH+jShTEXzm6X0Tgsggdm9IYFD7/eJ6a3ROI13HTe0CVoyaxm/fPxH5HDAKyfz7T0g==}
 
-  vite-plugin-static-copy@3.2.0:
-    resolution: {integrity: sha512-g2k9z8B/1Bx7D4wnFjPLx9dyYGrqWMLTpwTtPHhcU+ElNZP2O4+4OsyaficiDClus0dzVhdGvoGFYMJxoXZ12Q==}
+  vite-plugin-static-copy@3.3.0:
+    resolution: {integrity: sha512-XiAtZcev7nppxNFgKoD55rfL+ukVp/RtrnTJONRwRuzv/B2FK2h2ZRCYjvxhwBV/Oarse83SiyXBSxMTfeEM0Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: '>=5.3.6'
@@ -17288,7 +17288,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-static-copy@3.2.0(vite@7.3.1(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2)):
+  vite-plugin-static-copy@3.3.0(vite@7.3.1(@types/node@22.13.11)(jiti@1.21.7)(tsx@4.19.3)(yaml@2.8.2)):
     dependencies:
       chokidar: 3.6.0
       p-map: 7.0.4
