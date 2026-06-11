@@ -49,7 +49,7 @@
         "@anolilab/eslint-config": "^27.0.2",
         "@anolilab/prettier-config": "^8.0.1",
         "@anolilab/semantic-release-preset": "^12.1.2",
-        "@anolilab/textlint-config": "^11.1.0",
+        "@anolilab/textlint-config": "^12.1.6",
         "@commitlint/cli": "^21.0.2",
         "@commitlint/config-conventional": "^21.0.2",
         "@eslint/css": "^0.14.1",

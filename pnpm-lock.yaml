@@ -141,8 +141,8 @@ importers:
         specifier: ^12.1.2
         version: 12.1.2(@semantic-release/npm@13.1.2(semantic-release@25.0.3(typescript@5.9.3)))(semantic-release@25.0.3(typescript@5.9.3))(yaml@2.9.0)
       '@anolilab/textlint-config':
-        specifier: ^11.1.0
-        version: 11.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.39.4(jiti@2.4.2)))(textlint@15.7.1)
+        specifier: ^12.1.6
+        version: 12.1.6(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.39.4(jiti@2.4.2)))(textlint@15.7.1)
       '@commitlint/cli':
         specifier: ^21.0.2
         version: 21.0.2(@types/node@22.13.11)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(typescript@5.9.3)
@@ -362,12 +362,12 @@ packages:
       semantic-release-yarn:
         optional: true
 
-  '@anolilab/textlint-config@11.1.0':
-    resolution: {integrity: sha512-76ov3J1TfjtbCdfwpWF9Rmqm9D1gnxHM1hNJ4OSSK7v1lwVD+uRVvExejhEqihcn2zDMpD5jl+zfaarfZSNgXA==}
+  '@anolilab/textlint-config@12.1.6':
+    resolution: {integrity: sha512-ooyDNyzDx/zgTaianZZShEvlLEyrgTdM2mmW1ZD7F70nX5imCln1p5IgXKCkocoFK96q1HDgZH7OAVHG8lKURw==}
     engines: {node: '>=20.18.* <=25.*'}
     hasBin: true
     peerDependencies:
-      textlint: ^15.5.0
+      textlint: 15.5.2
 
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
@@ -1891,6 +1891,9 @@ packages:
   '@textlint/ast-node-types@13.4.1':
     resolution: {integrity: sha512-qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==}
 
+  '@textlint/ast-node-types@15.5.2':
+    resolution: {integrity: sha512-fCaOxoup5LIyBEo7R1oYWE7V4bSX0KQeHh66twon9e9usaLE3ijgF8QjYsR6joCssdeCHVd0wHm7ppsEyTr6vg==}
+
   '@textlint/ast-node-types@15.7.1':
     resolution: {integrity: sha512-Wii5UgUKFEh9Uv6wbq1zr4/Kf+dtjiUuzPrrXzKp8H+ifkvKNzi23V4Nz+6wVyHQn5T28AFuc8VH8OtzvGYecA==}
 
@@ -1971,6 +1974,9 @@ packages:
 
   '@textlint/types@12.6.1':
     resolution: {integrity: sha512-t1SZYahu2olnF8MUhlP6qDIEDyl7WmyIaBYxQdE2qU6xUkZWXS2zIxoAT/pVgvFCzDw3KO5HhIYGVeWRp90dTg==}
+
+  '@textlint/types@15.5.2':
+    resolution: {integrity: sha512-sJOrlVLLXp4/EZtiWKWq9y2fWyZlI8GP+24rnU5avtPWBIMm/1w97yzKrAqYF8czx2MqR391z5akhnfhj2f/AQ==}
 
   '@textlint/types@15.7.1':
     resolution: {integrity: sha512-Vye/GmFNBTgVzZFtIFJTmLB+s2A7oIADxNG6r9UhfPuY+Czv0z5G3xeyFZZudPlfxURsKUyPIU5XsjOFqVp33A==}
@@ -7269,8 +7275,8 @@ packages:
   textlint-rule-helper@2.5.0:
     resolution: {integrity: sha512-QIbFPtyqLy0g5BJn8mryk9iHzGYicNaFIpLFPiEnb4RXxrEGeQ2W2aARQ9yEXLIAqo+OwK4ndWBAWkbgJEPzTQ==}
 
-  textlint-rule-no-dead-link@6.1.0:
-    resolution: {integrity: sha512-d2I9V7ASJx5IyLyOJNgnxd4zMh2qAlv/1opMsSM0hkWYo37dglGHp1g56V57EqVx+2qZBBYUmiX9TgSXwZIAYg==}
+  textlint-rule-no-dead-link@6.2.1:
+    resolution: {integrity: sha512-HcEQ5gjrzVlHW6R2ERwEbJ2tKwNnhTl6KqAhZcEqRXqmj6fZuzP9D7knzxuPlCZ/wA609tifARlhRLLTCa5tQQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       textlint: '>= 12.2.0'
@@ -8176,13 +8182,13 @@ snapshots:
       - supports-color
       - yaml
 
-  '@anolilab/textlint-config@11.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.39.4(jiti@2.4.2)))(textlint@15.7.1)':
+  '@anolilab/textlint-config@12.1.6(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.1(eslint@9.39.4(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.4(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.39.4(jiti@2.4.2)))(textlint@15.7.1)':
     dependencies:
       '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-preset-google': 0.1.2
-      '@textlint/ast-node-types': 15.7.1
-      '@textlint/types': 15.7.1
+      '@textlint/ast-node-types': 15.5.2
+      '@textlint/types': 15.5.2
       textlint: 15.7.1
       textlint-filter-rule-comments: 1.3.0
       textlint-rule-abbr-within-parentheses: 1.0.2
@@ -8194,7 +8200,7 @@ snapshots:
       textlint-rule-en-capitalization: 2.0.3
       textlint-rule-footnote-order: 1.0.3
       textlint-rule-helper: 2.5.0
-      textlint-rule-no-dead-link: 6.1.0(textlint@15.7.1)
+      textlint-rule-no-dead-link: 6.2.1(textlint@15.7.1)
       textlint-rule-no-empty-section: 1.1.0
       textlint-rule-no-todo: 2.0.1
       textlint-rule-terminology: 5.2.16
@@ -9824,6 +9830,8 @@ snapshots:
 
   '@textlint/ast-node-types@13.4.1': {}
 
+  '@textlint/ast-node-types@15.5.2': {}
+
   '@textlint/ast-node-types@15.7.1': {}
 
   '@textlint/ast-node-types@4.4.3': {}
@@ -10018,6 +10026,10 @@ snapshots:
   '@textlint/types@12.6.1':
     dependencies:
       '@textlint/ast-node-types': 12.6.1
+
+  '@textlint/types@15.5.2':
+    dependencies:
+      '@textlint/ast-node-types': 15.5.2
 
   '@textlint/types@15.7.1':
     dependencies:
@@ -16431,7 +16443,7 @@ snapshots:
       structured-source: 4.0.0
       unist-util-visit: 2.0.3
 
-  textlint-rule-no-dead-link@6.1.0(textlint@15.7.1):
+  textlint-rule-no-dead-link@6.2.1(textlint@15.7.1):
     dependencies:
       minimatch: 10.2.5
       p-memoize: 8.0.0
