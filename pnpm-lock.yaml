@@ -204,8 +204,8 @@ importers:
         specifier: ^3.7.1
         version: 3.7.1
       tailwindcss:
-        specifier: ^4.3.0
-        version: 4.3.0
+        specifier: ^4.3.1
+        version: 4.3.1
       textlint:
         specifier: ^15.7.1
         version: 15.7.1
@@ -7205,8 +7205,8 @@ packages:
     resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
     engines: {node: '>=20'}
 
-  tailwindcss@4.3.0:
-    resolution: {integrity: sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==}
+  tailwindcss@4.3.1:
+    resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -16365,7 +16365,7 @@ snapshots:
 
   tagged-tag@1.0.0: {}
 
-  tailwindcss@4.3.0: {}
+  tailwindcss@4.3.1: {}
 
   tapable@2.2.1: {}
 
