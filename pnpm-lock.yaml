@@ -135,8 +135,8 @@ importers:
         specifier: ^27.0.10
         version: 27.0.10(@eslint/css@1.4.0)(@types/node@22.13.11)(@typescript-eslint/eslint-plugin@8.59.4(@typescript-eslint/parser@8.59.1(eslint@9.39.5(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.2))(typescript@5.9.3))(@typescript-eslint/utils@8.59.4(eslint@9.39.5(jiti@2.4.2))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.1(eslint@9.39.5(jiti@2.4.2))(typescript@5.9.3))(eslint@9.39.5(jiti@2.4.2)))(eslint-plugin-jsx-a11y@6.7.1(eslint@9.39.5(jiti@2.4.2)))(eslint-plugin-react@7.33.1(eslint@9.39.5(jiti@2.4.2)))(eslint@9.39.5(jiti@2.4.2))(typescript@5.9.3)(vitest@4.1.9(@types/node@22.13.11)(vite@8.1.5(@types/node@22.13.11)(esbuild@0.27.2)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.9.0)))(yaml@2.9.0)
       '@anolilab/prettier-config':
-        specifier: ^9.1.1
-        version: 9.1.1(prettier@3.8.4)
+        specifier: ^10.0.2
+        version: 10.0.2(prettier@3.8.4)
       '@anolilab/semantic-release-preset':
         specifier: ^12.1.2
         version: 12.1.2(@semantic-release/npm@13.1.2(semantic-release@25.0.5(typescript@5.9.3)))(semantic-release@25.0.5(typescript@5.9.3))(yaml@2.9.0)
@@ -330,12 +330,12 @@ packages:
       typescript:
         optional: true
 
-  '@anolilab/prettier-config@9.1.1':
-    resolution: {integrity: sha512-tleYzJofCSH2+eXVZV/Tqngqtz5ed5Be3FGdMp2NPTBbZZeVNzxT7kHXI/yHrxWHrwRUmXaq/yXMJHTr+aJbHw==}
-    engines: {node: '>=20.18.* <=25.*'}
+  '@anolilab/prettier-config@10.0.2':
+    resolution: {integrity: sha512-9y8Qi39PpkYfsX8gWUiZ88qldGiNz/tmuws7hXinTGiHG8CcazXEdSiJ1XADZ2C+D+GWcBXGH6cRYJWvV1c+hA==}
+    engines: {node: '>=22.12.0 <=25.*'}
     hasBin: true
     peerDependencies:
-      prettier: 3.8.1
+      prettier: 3.9.5
 
   '@anolilab/resume-schema@2.0.3':
     resolution: {integrity: sha512-NU1XEX8sOgM0G7Otfhat0MPxQjvRVs/eloPThG6F91VeqyF4XXtIlZZyMTDt4ujvOO+GpXGnEwU7xZyMRbOiYA==}
@@ -8171,7 +8171,7 @@ snapshots:
       - vitest
       - yaml
 
-  '@anolilab/prettier-config@9.1.1(prettier@3.8.4)':
+  '@anolilab/prettier-config@10.0.2(prettier@3.8.4)':
     dependencies:
       prettier: 3.8.4
 
