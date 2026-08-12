@@ -222,7 +222,7 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3
       textlint:
-        specifier: ^15.7.1
+        specifier: ^15.8.0
         version: 15.8.0
       typescript:
         specifier: ^5.9.3
@@ -15818,7 +15818,7 @@ snapshots:
 
   textlint-rule-helper@2.5.0:
     dependencies:
-      '@textlint/ast-node-types': 15.7.1
+      '@textlint/ast-node-types': 15.8.0
       structured-source: 4.0.0
       unist-util-visit: 2.0.3
 

@@ -71,7 +71,7 @@
         "semantic-release": "^25.0.9",
         "sort-package-json": "^3.7.1",
         "tailwindcss": "^4.3.3",
-        "textlint": "^15.7.1",
+        "textlint": "^15.8.0",
         "typescript": "^5.9.3",
         "vite": "^8.2.0",
         "vite-plugin-favicon2": "^1.1.5",
