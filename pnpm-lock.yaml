@@ -210,7 +210,7 @@ importers:
         specifier: ^16.1.1
         version: 16.1.1(postcss@8.5.26)
       prettier:
-        specifier: ^3.8.5
+        specifier: ^3.9.6
         version: 3.9.6
       semantic-release:
         specifier: ^25.0.9
