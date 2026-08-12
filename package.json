@@ -68,7 +68,7 @@
         "postcss": "^8.5.25",
         "postcss-import": "^16.1.1",
         "prettier": "^3.8.4",
-        "semantic-release": "^25.0.5",
+        "semantic-release": "^25.0.9",
         "sort-package-json": "^3.7.1",
         "tailwindcss": "^4.3.3",
         "textlint": "^15.7.1",
