@@ -12,15 +12,15 @@ overrides:
   basic-ftp@<=5.2.1: '>=6.2.1'
   basic-ftp@<=5.2.2: '>=5.3.1'
   basic-ftp@<=5.3.0: '>=6.2.1'
-  brace-expansion@<1.1.13: '>=5.0.9'
-  brace-expansion@>=2.0.0 <2.0.3: '>=5.0.9'
-  brace-expansion@>=5.0.0 <5.0.6: '>=5.0.9'
+  brace-expansion@<1.1.13: '>=5.0.12'
+  brace-expansion@>=2.0.0 <2.0.3: '>=5.0.12'
+  brace-expansion@>=5.0.0 <5.0.6: '>=5.0.12'
   chrono-node@<2.2.4: '>=2.10.1'
   cross-spawn@>=7.0.0 <7.0.5: '>=7.0.6'
   diff@>=5.0.0 <5.2.2: '>=5.2.2'
   esbuild@<=0.24.2: '>=0.28.2'
-  fast-uri@<=3.1.0: '>=3.1.7'
-  fast-uri@<=3.1.1: '>=3.1.7'
+  fast-uri@<=3.1.0: '>=3.1.8'
+  fast-uri@<=3.1.1: '>=3.1.8'
   file-type@>=13.0.0 <21.3.1: '>=21.3.4'
   flatted@<3.4.0: '>=3.4.4'
   flatted@<=3.4.1: '>=3.4.4'
@@ -29,14 +29,14 @@ overrides:
   handlebars@>=4.0.0 <4.7.9: '>=4.7.9'
   handlebars@>=4.0.0 <=4.7.8: '>=4.7.9'
   handlebars@>=4.6.0 <=4.7.8: '>=4.7.9'
-  hono@<4.12.12: '>=4.13.7'
-  hono@<4.12.14: '>=4.13.7'
-  hono@<4.12.16: '>=4.13.7'
-  hono@<4.12.18: '>=4.13.7'
-  hono@<4.12.7: '>=4.13.7'
-  hono@>=4.0.0 <=4.12.11: '>=4.13.7'
-  hono@>=4.0.0 <4.12.34: '>=4.13.7'
-  ip-address@<=10.1.0: '>=10.7.0'
+  hono@<4.12.12: '>=4.13.8'
+  hono@<4.12.14: '>=4.13.8'
+  hono@<4.12.16: '>=4.13.8'
+  hono@<4.12.18: '>=4.13.8'
+  hono@<4.12.7: '>=4.13.8'
+  hono@>=4.0.0 <=4.12.11: '>=4.13.8'
+  hono@>=4.0.0 <4.12.34: '>=4.13.8'
+  ip-address@<=10.1.0: '>=10.7.2'
   jpeg-js@<0.4.0: '>=0.4.4'
   jpeg-js@<0.4.4: '>=0.4.4'
   lodash-es@<=4.17.23: '>=4.18.0'
@@ -89,21 +89,21 @@ overrides:
   vite@>=7.1.0 <=7.3.1: '>=8.2.2'
   ws@>=8.0.0 <8.20.1: '>=8.21.3'
   xml2js@<0.5.0: '>=0.6.2'
-  yaml@>=2.0.0 <2.8.3: '>=2.9.0'
+  yaml@>=2.0.0 <2.8.3: '>=2.9.1'
   undici@>=8.0.0 <8.5.0: '>=8.10.2'
   undici@>=8.0.0 <8.9.0: '>=8.10.2'
-  brace-expansion@>=3.0.0 <5.0.7: '>=5.0.9'
-  brace-expansion@>=4.0.0 <5.0.8: '>=5.0.9'
+  brace-expansion@>=3.0.0 <5.0.7: '>=5.0.12'
+  brace-expansion@>=4.0.0 <5.0.8: '>=5.0.12'
   js-yaml@>=4.0.0 <4.1.1: '>=4.3.2'
   js-yaml@>=4.0.0 <4.3.0: '>=4.3.2'
   svgo@>=4.0.0 <4.0.2: '>=4.1.0'
-  fast-uri@>=3.0.0 <3.1.3: '>=3.1.7'
-  fast-uri@>=3.0.0 <=3.1.3: '>=3.1.7'
-  fast-uri@>=3.0.0 <3.1.5: '>=3.1.7'
-  ip-address@>=10.1.1 <=10.2.0: '>=10.7.0'
-  ip-address@>=10.1.1 <=10.2.1: '>=10.7.0'
-  ip-address@<=10.3.0: '>=10.7.0'
-  nanoid@<3.3.17: '>=3.3.18'
+  fast-uri@>=3.0.0 <3.1.3: '>=3.1.8'
+  fast-uri@>=3.0.0 <=3.1.3: '>=3.1.8'
+  fast-uri@>=3.0.0 <3.1.5: '>=3.1.8'
+  ip-address@>=10.1.1 <=10.2.0: '>=10.7.2'
+  ip-address@>=10.1.1 <=10.2.1: '>=10.7.2'
+  ip-address@<=10.3.0: '>=10.7.2'
+  nanoid@<3.3.17: '>=3.3.19'
 
 importers:
 
@@ -148,13 +148,13 @@ importers:
     devDependencies:
       '@anolilab/eslint-config':
         specifier: ^29.0.1
-        version: 29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)))(yaml@2.9.0)
+        version: 29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)))(yaml@2.9.1)
       '@anolilab/prettier-config':
         specifier: ^10.0.3
         version: 10.0.3(prettier@3.9.6)
       '@anolilab/semantic-release-preset':
         specifier: ^12.1.2
-        version: 12.1.2(@semantic-release/npm@13.1.5(semantic-release@25.0.9(typescript@5.9.3)))(semantic-release@25.0.9(typescript@5.9.3))(yaml@2.9.0)
+        version: 12.1.2(@semantic-release/npm@13.1.5(semantic-release@25.0.9(typescript@5.9.3)))(semantic-release@25.0.9(typescript@5.9.3))(yaml@2.9.1)
       '@anolilab/textlint-config':
         specifier: ^13.0.6
         version: 13.0.6(textlint@15.8.0)
@@ -174,8 +174,8 @@ importers:
         specifier: ^4.2.9
         version: 4.2.9
       autoprefixer:
-        specifier: ^10.5.5
-        version: 10.5.5(postcss@8.5.28)
+        specifier: ^10.5.6
+        version: 10.6.1(postcss@8.5.28)
       c8:
         specifier: ^10.1.3
         version: 10.1.3
@@ -229,19 +229,19 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^8.2.2
-        version: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+        version: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
       vite-plugin-favicon2:
         specifier: ^1.1.5
-        version: 1.1.5(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+        version: 1.1.5(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
       vite-plugin-handlebars:
         specifier: ^2.0.3
-        version: 2.0.3(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+        version: 2.0.3(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
       vite-plugin-static-copy:
         specifier: ^3.4.0
-        version: 3.4.0(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+        version: 3.4.0(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
       vitest:
         specifier: ^4.1.11
-        version: 4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+        version: 4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
 
 packages:
 
@@ -2177,7 +2177,7 @@ packages:
     engines: {node: '>=20.19 <=25.x'}
     os: [darwin, linux, win32]
     peerDependencies:
-      yaml: '>=2.9.0'
+      yaml: '>=2.9.1'
     peerDependenciesMeta:
       yaml:
         optional: true
@@ -2461,8 +2461,8 @@ packages:
     resolution: {integrity: sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==}
     engines: {node: '>=0.8'}
 
-  autoprefixer@10.5.5:
-    resolution: {integrity: sha512-uiRYvQYe/nNSzBJ7OUnd2/TZVsAdob3blml44teEpee9Cc1f4rGZFewO+JT3Wo8mgFOSzNqes4FHZn/Qz8WOuw==}
+  autoprefixer@10.6.1:
+    resolution: {integrity: sha512-cL1Qz6ADZhcEbny/8HPfe99J6HhNoYtpX2LFLIbhgGE7Q1hlQVkYFdetDN7Id3KiQxhDrHwzlHr/YQCnZ8+xSA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2570,6 +2570,10 @@ packages:
   boxen@7.1.1:
     resolution: {integrity: sha512-2hCgjEmP8YLWQ130n2FerGv7rYpfBmnmp9Uy2Le1vge6X3gZIfSmEzP5QTDElFxcvVcXlEn8Aq6MU/PZygIOog==}
     engines: {node: '>=14.16'}
+
+  brace-expansion@5.0.12:
+    resolution: {integrity: sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==}
+    engines: {node: 20 || >=22}
 
   brace-expansion@5.0.9:
     resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
@@ -4348,8 +4352,8 @@ packages:
     resolution: {integrity: sha512-2dYz766i9HprMBasCMvHMuazJ7u4WzhJwo5kb3iPSiW/iRYV6uPari3zHoqZlnuaR7V1bEiNMxikhp37rdBXbw==}
     engines: {node: '>=12'}
 
-  ip-address@10.7.0:
-    resolution: {integrity: sha512-BGFsyJd5mpXp3rK6jIdADLNgpJUK1jnjzvYF8lK+VyDab9JAmqN0YOKDdP17HlgKb2+ehPgDc8EtnRLbGCAMhA==}
+  ip-address@10.7.2:
+    resolution: {integrity: sha512-7H/2gFSIitxc0hG3nOI1glS8QLo/EHBFFLk8vEUjXY/xu0AdL8jZ9U1IzO2PUm0d2D/ofQcAifb0g6OBkt8U7w==}
     engines: {node: '>= 12'}
 
   is-accessor-descriptor@1.0.2:
@@ -7505,7 +7509,7 @@ packages:
       sugarss: ^5.0.0
       terser: ^5.16.0
       tsx: ^4.8.1
-      yaml: '>=2.9.0'
+      yaml: '>=2.9.1'
     peerDependenciesMeta:
       '@types/node':
         optional: true
@@ -7735,6 +7739,11 @@ packages:
     engines: {node: '>= 14.6'}
     hasBin: true
 
+  yaml@2.9.1:
+    resolution: {integrity: sha512-3NxN8+78OdzbT7C/WjGsyfPAtJaN3FNDsWxv7Y7mcDsT/oOmgW8BpyQQFFBnvZE3j9Y2Sdz1ULFLezL7Eb2yFw==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
   yargs-parser@18.1.3:
     resolution: {integrity: sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==}
     engines: {node: '>=6'}
@@ -7812,7 +7821,7 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@anolilab/eslint-config@29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)))(yaml@2.9.0)':
+  '@anolilab/eslint-config@29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)))(yaml@2.9.1)':
     dependencies:
       '@e18e/eslint-plugin': 0.8.0(eslint@9.39.5(jiti@2.6.1))
       '@eslint-community/eslint-plugin-eslint-comments': 4.7.2(eslint@9.39.5(jiti@2.6.1))
@@ -7825,10 +7834,10 @@ snapshots:
       '@stylistic/eslint-plugin-ts': 4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
       '@typescript-eslint/parser': 8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
       '@typescript-eslint/types': 8.66.0
-      '@visulima/fs': 5.0.5(json5@2.2.3)(jsonc-parser@3.3.1)(yaml@2.9.0)
+      '@visulima/fs': 5.0.5(json5@2.2.3)(jsonc-parser@3.3.1)(yaml@2.9.1)
       '@visulima/package': 5.0.20(jsonc-parser@3.3.1)
       '@visulima/tsconfig': 3.2.14(json5@2.2.3)
-      '@vitest/eslint-plugin': 1.6.26(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)))
+      '@vitest/eslint-plugin': 1.6.26(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)))
       confusing-browser-globals: 1.0.11
       eslint: 9.39.5(jiti@2.6.1)
       eslint-config-flat-gitignore: 2.3.0(eslint@9.39.5(jiti@2.6.1))
@@ -7893,18 +7902,18 @@ snapshots:
 
   '@anolilab/resume-schema@2.0.3': {}
 
-  '@anolilab/semantic-release-clean-package-json@4.2.2(yaml@2.9.0)':
+  '@anolilab/semantic-release-clean-package-json@4.2.2(yaml@2.9.1)':
     dependencies:
       '@semantic-release/error': 4.0.0
-      '@visulima/fs': 4.1.0(yaml@2.9.0)
+      '@visulima/fs': 4.1.0(yaml@2.9.1)
       '@visulima/path': 2.0.5
       type-fest: 5.9.0
     transitivePeerDependencies:
       - yaml
 
-  '@anolilab/semantic-release-preset@12.1.2(@semantic-release/npm@13.1.5(semantic-release@25.0.9(typescript@5.9.3)))(semantic-release@25.0.9(typescript@5.9.3))(yaml@2.9.0)':
+  '@anolilab/semantic-release-preset@12.1.2(@semantic-release/npm@13.1.5(semantic-release@25.0.9(typescript@5.9.3)))(semantic-release@25.0.9(typescript@5.9.3))(yaml@2.9.1)':
     dependencies:
-      '@anolilab/semantic-release-clean-package-json': 4.2.2(yaml@2.9.0)
+      '@anolilab/semantic-release-clean-package-json': 4.2.2(yaml@2.9.1)
       '@semantic-release/changelog': 6.0.3(semantic-release@25.0.9(typescript@5.9.3))
       '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.9(typescript@5.9.3))
       '@semantic-release/exec': 7.1.0(semantic-release@25.0.9(typescript@5.9.3))
@@ -10019,20 +10028,20 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.12.2':
     optional: true
 
-  '@visulima/fs@4.1.0(yaml@2.9.0)':
+  '@visulima/fs@4.1.0(yaml@2.9.1)':
     dependencies:
       '@visulima/path': 2.0.5
       type-fest: 5.9.0
     optionalDependencies:
-      yaml: 2.9.0
+      yaml: 2.9.1
 
-  '@visulima/fs@5.0.5(json5@2.2.3)(jsonc-parser@3.3.1)(yaml@2.9.0)':
+  '@visulima/fs@5.0.5(json5@2.2.3)(jsonc-parser@3.3.1)(yaml@2.9.1)':
     dependencies:
       '@visulima/path': 3.0.0
     optionalDependencies:
       json5: 2.2.3
       jsonc-parser: 3.3.1
-      yaml: 2.9.0
+      yaml: 2.9.1
 
   '@visulima/fs@6.0.7(json5@2.2.3)(jsonc-parser@3.3.1)':
     dependencies:
@@ -10073,7 +10082,7 @@ snapshots:
       - json5
       - smol-toml
 
-  '@vitest/eslint-plugin@1.6.26(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)))':
+  '@vitest/eslint-plugin@1.6.26(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)(vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)))':
     dependencies:
       '@typescript-eslint/scope-manager': 8.69.0
       '@typescript-eslint/utils': 8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
@@ -10081,7 +10090,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
       typescript: 5.9.3
-      vitest: 4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+      vitest: 4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -10094,13 +10103,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.1
 
-  '@vitest/mocker@4.1.11(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))':
+  '@vitest/mocker@4.1.11(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))':
     dependencies:
       '@vitest/spy': 4.1.11
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
 
   '@vitest/pretty-format@4.1.11':
     dependencies:
@@ -10289,7 +10298,7 @@ snapshots:
 
   author-regex@1.0.0: {}
 
-  autoprefixer@10.5.5(postcss@8.5.28):
+  autoprefixer@10.6.1(postcss@8.5.28):
     dependencies:
       browserslist: 4.28.9
       caniuse-lite: 1.0.30001810
@@ -10377,6 +10386,10 @@ snapshots:
       type-fest: 2.19.0
       widest-line: 4.0.1
       wrap-ansi: 8.1.0
+
+  brace-expansion@5.0.12:
+    dependencies:
+      balanced-match: 4.0.4
 
   brace-expansion@5.0.9:
     dependencies:
@@ -12474,7 +12487,7 @@ snapshots:
       from2: 2.3.0
       p-is-promise: 3.0.0
 
-  ip-address@10.7.0: {}
+  ip-address@10.7.2: {}
 
   is-accessor-descriptor@1.0.2:
     dependencies:
@@ -12921,7 +12934,7 @@ snapshots:
       picomatch: 4.0.7
       string-argv: 0.3.2
       tinyexec: 1.3.1
-      yaml: 2.9.0
+      yaml: 2.9.1
 
   listr2@9.0.5:
     dependencies:
@@ -14035,7 +14048,7 @@ snapshots:
 
   minimatch@3.1.5:
     dependencies:
-      brace-expansion: 5.0.9
+      brace-expansion: 5.0.12
 
   minimist-options@4.1.0:
     dependencies:
@@ -15475,7 +15488,7 @@ snapshots:
 
   socks@2.8.10:
     dependencies:
-      ip-address: 10.7.0
+      ip-address: 10.7.2
       smart-buffer: 4.2.0
 
   sort-object-keys@2.1.0: {}
@@ -16167,7 +16180,7 @@ snapshots:
       vfile-message: 3.1.4
       vfile-reporter: 7.0.5
       vfile-statistics: 2.0.1
-      yaml: 2.9.0
+      yaml: 2.9.1
     transitivePeerDependencies:
       - supports-color
 
@@ -16474,32 +16487,32 @@ snapshots:
       remove-trailing-separator: 1.1.0
       replace-ext: 1.0.1
 
-  vite-plugin-favicon2@1.1.5(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)):
+  vite-plugin-favicon2@1.1.5(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)):
     dependencies:
       favicons: 6.2.2(@types/node@26.4.1)
       find-root: 1.1.0
       parse-author: 2.0.0
       parse5: 6.0.1
-      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - debug
       - supports-color
 
-  vite-plugin-handlebars@2.0.3(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)):
+  vite-plugin-handlebars@2.0.3(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)):
     dependencies:
       handlebars: 4.7.9
-      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
 
-  vite-plugin-static-copy@3.4.0(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)):
+  vite-plugin-static-copy@3.4.0(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)):
     dependencies:
       chokidar: 3.6.0
       p-map: 7.0.7
       picocolors: 1.1.1
       tinyglobby: 0.2.17
-      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
 
-  vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0):
+  vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -16512,12 +16525,12 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.6.1
       tsx: 4.23.13
-      yaml: 2.9.0
+      yaml: 2.9.1
 
-  vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)):
+  vitest@4.1.11(@types/node@26.4.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)):
     dependencies:
       '@vitest/expect': 4.1.11
-      '@vitest/mocker': 4.1.11(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0))
+      '@vitest/mocker': 4.1.11(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1))
       '@vitest/pretty-format': 4.1.11
       '@vitest/runner': 4.1.11
       '@vitest/snapshot': 4.1.11
@@ -16534,7 +16547,7 @@ snapshots:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.1
-      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.0)
+      vite: 8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.13)(yaml@2.9.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 26.4.1
@@ -16715,9 +16728,11 @@ snapshots:
   yaml-eslint-parser@2.1.0:
     dependencies:
       eslint-visitor-keys: 5.0.1
-      yaml: 2.9.0
+      yaml: 2.9.1
 
   yaml@2.9.0: {}
+
+  yaml@2.9.1: {}
 
   yargs-parser@18.1.3:
     dependencies:
