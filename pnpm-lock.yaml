@@ -17,7 +17,7 @@ overrides:
   brace-expansion@>=5.0.0 <5.0.6: '>=5.0.12'
   chrono-node@<2.2.4: '>=2.10.1'
   cross-spawn@>=7.0.0 <7.0.5: '>=7.0.6'
-  diff@>=5.0.0 <5.2.2: '>=5.2.2'
+  diff@>=5.0.0 <5.2.2: '>=7.0.0'
   esbuild@<=0.24.2: '>=0.28.2'
   fast-uri@<=3.1.0: '>=3.1.8'
   fast-uri@<=3.1.1: '>=3.1.8'
@@ -2850,6 +2850,7 @@ packages:
   clone-buffer@1.0.0:
     resolution: {integrity: sha512-KLLTJWrvwIP+OPfMn0x2PheDEP20RPUcGXj/ERegTgdmPEZylALQldygiqrPPu8P45uNuPs7ckmReLY6v/iA5g==}
     engines: {node: '>= 0.10'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   clone-regexp@2.2.0:
     resolution: {integrity: sha512-beMpP7BOtTipFuW8hrJvREQ2DrRu3BE7by0ZpibtfBA+qfHYvMGTc2Yb1JMYPKg/JUw0CHYvpg796aNTSW9z7Q==}
