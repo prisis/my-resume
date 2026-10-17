@@ -92,17 +92,17 @@ overrides:
   undici@>=8.0.0 <8.5.0: '>=8.11.2'
   undici@>=8.0.0 <8.9.0: '>=8.11.2'
   uuid@<11.1.1: '>=11.1.1'
-  vite@<=5.4.19: '>=8.3.3'
-  vite@>=5.0.0 <5.4.15: '>=8.3.3'
-  vite@>=5.0.0 <5.4.16: '>=8.3.3'
-  vite@>=5.0.0 <5.4.17: '>=8.3.3'
-  vite@>=5.0.0 <5.4.18: '>=8.3.3'
-  vite@>=5.0.0 <=5.4.11: '>=8.3.3'
-  vite@>=5.0.0 <=5.4.18: '>=8.3.3'
-  vite@>=5.3.0 <5.3.6: '>=8.3.3'
-  vite@>=5.3.0 <=5.3.5: '>=8.3.3'
-  vite@>=7.0.0 <=7.3.1: '>=8.3.3'
-  vite@>=7.1.0 <=7.3.1: '>=8.3.3'
+  vite@<=5.4.19: '>=8.3.4'
+  vite@>=5.0.0 <5.4.15: '>=8.3.4'
+  vite@>=5.0.0 <5.4.16: '>=8.3.4'
+  vite@>=5.0.0 <5.4.17: '>=8.3.4'
+  vite@>=5.0.0 <5.4.18: '>=8.3.4'
+  vite@>=5.0.0 <=5.4.11: '>=8.3.4'
+  vite@>=5.0.0 <=5.4.18: '>=8.3.4'
+  vite@>=5.3.0 <5.3.6: '>=8.3.4'
+  vite@>=5.3.0 <=5.3.5: '>=8.3.4'
+  vite@>=7.0.0 <=7.3.1: '>=8.3.4'
+  vite@>=7.1.0 <=7.3.1: '>=8.3.4'
   ws@>=8.0.0 <8.20.1: '>=8.22.0'
   xml2js@<0.5.0: '>=0.6.2'
   yaml@>=2.0.0 <2.8.3: '>=2.9.1'
@@ -230,7 +230,7 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       vite:
-        specifier: ^8.3.3
+        specifier: ^8.3.4
         version: 8.3.4(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)
       vite-plugin-favicon2:
         specifier: ^1.1.5
@@ -2404,7 +2404,7 @@ packages:
     resolution: {integrity: sha512-2XJVD55d1o5AZous5CCGKS74g/riOj9odEt2bQpCVZeblHyHdnMeFl4jl0XjU21stf4mbjUkew2eXQZt65g5CQ==}
     peerDependencies:
       msw: ^2.4.9
-      vite: '>=8.3.3'
+      vite: '>=8.3.4'
     peerDependenciesMeta:
       msw:
         optional: true
@@ -7546,18 +7546,18 @@ packages:
   vite-plugin-favicon2@1.1.5:
     resolution: {integrity: sha512-cI47pXLsrboI6/w5JHQF0/z6/Z5QtLadCvQBKMWa156pEGJzNTXAPkf4B4cBDg0Qfyo2h2cJsmoKUeXQWjbDiA==}
     peerDependencies:
-      vite: '>=8.3.3'
+      vite: '>=8.3.4'
 
   vite-plugin-handlebars@2.0.3:
     resolution: {integrity: sha512-LnzLfYtmHfK66R5M3yL/2EAYmsZh+/0SrlBStRPJYhww0pBDQBDzDgxmxHl9JV2UHZ/21uOx5+kPPZiEp2gMCQ==}
     peerDependencies:
-      vite: '>=8.3.3'
+      vite: '>=8.3.4'
 
   vite-plugin-static-copy@3.4.0:
     resolution: {integrity: sha512-ekryzCw0ouAOE8tw4RvVL/dfqguXzumsV3FBKoKso4MQ1MUUrUXtl5RI4KpJQUNGqFEsg9kxl4EvDl02YtA9VQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      vite: '>=8.3.3'
+      vite: '>=8.3.4'
 
   vite@8.3.4:
     resolution: {integrity: sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==}
@@ -7618,7 +7618,7 @@ packages:
       '@vitest/ui': 4.1.11
       happy-dom: '*'
       jsdom: '*'
-      vite: '>=8.3.3'
+      vite: '>=8.3.4'
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
