@@ -6,7 +6,7 @@ settings:
 
 overrides:
   '@babel/runtime@<7.26.10': '>=8.0.7'
-  '@hono/node-server@<1.19.13': '>=2.1.4'
+  '@hono/node-server@<1.19.13': '>=2.1.5'
   ajv@<6.14.0: '>=8.20.0'
   basic-ftp@<5.2.0: '>=6.2.3'
   basic-ftp@<=5.2.1: '>=6.2.3'
@@ -75,7 +75,7 @@ overrides:
   picomatch@<2.3.2: '>=4.0.7'
   picomatch@>=4.0.0 <4.0.4: '>=4.0.7'
   postcss@<8.5.10: '>=8.5.30'
-  qs@<6.15.2: '>=6.16.0'
+  qs@<6.15.2: '>=6.16.1'
   resize-img@<2.0.0: '>=2.0.0'
   rollup@>=4.0.0 <4.22.4: '>=4.63.6'
   rollup@>=4.0.0 <4.59.0: '>=4.63.6'
@@ -86,9 +86,9 @@ overrides:
   tar-fs@>=2.0.0 <2.1.3: '>=2.1.5'
   tmp@<0.2.6: '>=0.2.7'
   tough-cookie@<4.1.3: '>=4.1.4'
-  undici@<6.23.0: '>=7.30.0'
-  undici@<6.24.0: '>=7.30.0'
-  undici@>=7.0.0 <7.24.0: '>=7.30.0'
+  undici@<6.23.0: '>=7.30.1'
+  undici@<6.24.0: '>=7.30.1'
+  undici@>=7.0.0 <7.24.0: '>=7.30.1'
   undici@>=8.0.0 <8.5.0: '>=8.11.2'
   undici@>=8.0.0 <8.9.0: '>=8.11.2'
   uuid@<11.1.1: '>=11.1.1'
@@ -150,10 +150,10 @@ importers:
     devDependencies:
       '@anolilab/eslint-config':
         specifier: ^29.0.1
-        version: 29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/utils@8.71.1(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@visulima/yaml@1.0.0)(eslint@10.12.0(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.6.5)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)))(yaml@2.9.1)
+        version: 29.0.1(@eslint/css@2.0.1)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/utils@8.71.1(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@visulima/yaml@1.0.0)(eslint@10.12.0(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.6.5)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)))(yaml@2.9.1)
       '@anolilab/prettier-config':
-        specifier: ^10.0.3
-        version: 10.0.3(prettier@3.9.10)
+        specifier: ^10.0.4
+        version: 10.0.4(prettier@3.9.10)
       '@anolilab/semantic-release-preset':
         specifier: ^12.1.2
         version: 12.1.2(@semantic-release/npm@13.2.0(semantic-release@25.0.9(typescript@7.0.2)))(semantic-release@25.0.9(typescript@7.0.2))(yaml@2.9.1)
@@ -167,8 +167,8 @@ importers:
         specifier: ^21.2.3
         version: 21.2.3
       '@eslint/css':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
       '@types/gravatar':
         specifier: ^1.8.6
         version: 1.8.6
@@ -347,12 +347,12 @@ packages:
       typescript:
         optional: true
 
-  '@anolilab/prettier-config@10.0.3':
-    resolution: {integrity: sha512-zb+gDmmdW8M4yn4ZbzMkzj1xmnEhMA74vws8FWBew7wEcbhtpTSrvfMx0WJe4hnvLw5Ko5BCC6kFrvBjIcZybQ==}
+  '@anolilab/prettier-config@10.0.4':
+    resolution: {integrity: sha512-N4NI74CNxoJcl+9TyPMuOFF27JO88vgKqF0AiBdQP3wJKmLNVbgAwv+GE6aWzAR2zPNqDbUQ9mVCBaCfKC1AWw==}
     engines: {node: '>=22.12.0 <=25.*'}
     hasBin: true
     peerDependencies:
-      prettier: 3.9.6
+      prettier: 3.9.10
 
   '@anolilab/resume-schema@2.0.3':
     resolution: {integrity: sha512-NU1XEX8sOgM0G7Otfhat0MPxQjvRVs/eloPThG6F91VeqyF4XXtIlZZyMTDt4ujvOO+GpXGnEwU7xZyMRbOiYA==}
@@ -754,8 +754,8 @@ packages:
     resolution: {integrity: sha512-A+s89eP+yDAPkKjnIOfjlkGifg5J7GPn01nWx14UjBVWktfkxOU4975F9ZZ13xNxkGiblNcBaAqgKhnQrW6SWA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@eslint/css@2.0.0':
-    resolution: {integrity: sha512-lODVRbtxOXgcSOWNvv3gE4A8oRTSUHefA0tX9zrWUD57F+5RTLGDX9I8bnHQROO8nWb0hrmke0uO23pTlNfZ0A==}
+  '@eslint/css@2.0.1':
+    resolution: {integrity: sha512-1qIQFzuFeTaHF3ewzsj/HUDC9RTDwfBHGWdFvpmOG0R/Tb3Mt+17yltbE10/LK+oglS1fP9+tiG5UzMvWgQY9g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
   '@eslint/js@10.0.1':
@@ -7882,7 +7882,7 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@anolilab/eslint-config@29.0.1(@eslint/css@2.0.0)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/utils@8.71.1(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@visulima/yaml@1.0.0)(eslint@10.12.0(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.6.5)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)))(yaml@2.9.1)':
+  '@anolilab/eslint-config@29.0.1(@eslint/css@2.0.1)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/utils@8.71.1(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2))(@visulima/yaml@1.0.0)(eslint@10.12.0(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@7.0.2)(vitest@4.1.11(@types/node@26.6.5)(vite@8.3.4(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)))(yaml@2.9.1)':
     dependencies:
       '@e18e/eslint-plugin': 0.8.0(eslint@10.12.0(jiti@2.6.1))
       '@eslint-community/eslint-plugin-eslint-comments': 4.7.2(eslint@10.12.0(jiti@2.6.1))
@@ -7939,7 +7939,7 @@ snapshots:
       typescript-eslint: 8.66.0(eslint@10.12.0(jiti@2.6.1))(typescript@7.0.2)
       yaml-eslint-parser: 2.1.0
     optionalDependencies:
-      '@eslint/css': 2.0.0
+      '@eslint/css': 2.0.1
       typescript: 7.0.2
     transitivePeerDependencies:
       - '@eslint/json'
@@ -7957,7 +7957,7 @@ snapshots:
       - vitest
       - yaml
 
-  '@anolilab/prettier-config@10.0.3(prettier@3.9.10)':
+  '@anolilab/prettier-config@10.0.4(prettier@3.9.10)':
     dependencies:
       prettier: 3.9.10
 
@@ -8347,7 +8347,7 @@ snapshots:
       mdn-data: 2.35.0
       source-map-js: 1.2.2
 
-  '@eslint/css@2.0.0':
+  '@eslint/css@2.0.1':
     dependencies:
       '@eslint/core': 1.2.1
       '@eslint/css-tree': 4.1.1
