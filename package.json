@@ -79,5 +79,5 @@
         "vite-plugin-static-copy": "^3.4.0",
         "vitest": "^4.1.12"
     },
-    "packageManager": "pnpm@10.34.7"
+    "packageManager": "pnpm@10.34.9"
 }
