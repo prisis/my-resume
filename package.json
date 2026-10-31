@@ -55,7 +55,7 @@
         "@eslint/css": "^2.0.1",
         "@types/gravatar": "^1.8.6",
         "@types/lodash.capitalize": "^4.2.9",
-        "autoprefixer": "^10.6.1",
+        "autoprefixer": "^10.6.2",
         "c8": "^12.0.0",
         "commitizen": "^4.3.2",
         "cross-env": "^10.1.0",
@@ -79,5 +79,5 @@
         "vite-plugin-static-copy": "^3.4.0",
         "vitest": "^4.1.12"
     },
-    "packageManager": "pnpm@10.34.7"
+    "packageManager": "pnpm@10.34.9"
 }
