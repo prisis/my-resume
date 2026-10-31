@@ -209,8 +209,8 @@ importers:
         specifier: ^8.5.30
         version: 8.5.30
       postcss-import:
-        specifier: ^16.2.0
-        version: 16.2.0(postcss@8.5.30)
+        specifier: ^17.0.1
+        version: 17.0.1(postcss@8.5.30)
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
@@ -6126,9 +6126,9 @@ packages:
     peerDependencies:
       postcss: ^8.5.29
 
-  postcss-import@16.2.0:
-    resolution: {integrity: sha512-0mQUGlSp87Zl70K58RNwQAN1WS9plFE6KWGui9nyK6ninduMyjW/Khaoy/BpBoFTBh7ndAvAKrSKVbwy6vd/BA==}
-    engines: {node: '>=18.0.0'}
+  postcss-import@17.0.1:
+    resolution: {integrity: sha512-lthLZRa+sMc/xo+lG7TMUvOviwP9ngR0VULnvfXTyOE3JIc0mFrbjcubI6Jx52X+B3IKt9yfp6wwVWE768JezA==}
+    engines: {node: '>=22.0.0'}
     peerDependencies:
       postcss: '>=8.5.30'
 
@@ -14479,7 +14479,7 @@ snapshots:
       '@csstools/css-tokenizer': 4.0.2
       postcss: 8.5.30
 
-  postcss-import@16.2.0(postcss@8.5.30):
+  postcss-import@17.0.1(postcss@8.5.30):
     dependencies:
       postcss: 8.5.30
       postcss-value-parser: 4.2.0
