@@ -6,12 +6,12 @@ settings:
 
 overrides:
   '@babel/runtime@<7.26.10': '>=8.0.10'
-  '@hono/node-server@<1.19.13': '>=2.1.5'
+  '@hono/node-server@<1.19.13': '>=2.1.6'
   ajv@<6.14.0: '>=8.20.0'
-  basic-ftp@<5.2.0: '>=6.2.3'
-  basic-ftp@<=5.2.1: '>=6.2.3'
+  basic-ftp@<5.2.0: '>=6.2.5'
+  basic-ftp@<=5.2.1: '>=6.2.5'
   basic-ftp@<=5.2.2: '>=5.3.1'
-  basic-ftp@<=5.3.0: '>=6.2.3'
+  basic-ftp@<=5.3.0: '>=6.2.5'
   brace-expansion@<1.1.13: '>=5.0.12'
   brace-expansion@>=2.0.0 <2.0.3: '>=5.0.12'
   brace-expansion@>=3.0.0 <5.0.7: '>=5.0.12'
@@ -34,13 +34,13 @@ overrides:
   handlebars@>=4.0.0 <4.7.9: '>=4.7.10'
   handlebars@>=4.0.0 <=4.7.8: '>=4.7.10'
   handlebars@>=4.6.0 <=4.7.8: '>=4.7.10'
-  hono@<4.12.12: '>=4.13.14'
-  hono@<4.12.14: '>=4.13.14'
-  hono@<4.12.16: '>=4.13.14'
-  hono@<4.12.18: '>=4.13.14'
-  hono@<4.12.7: '>=4.13.14'
-  hono@>=4.0.0 <4.12.34: '>=4.13.14'
-  hono@>=4.0.0 <=4.12.11: '>=4.13.14'
+  hono@<4.12.12: '>=4.13.16'
+  hono@<4.12.14: '>=4.13.16'
+  hono@<4.12.16: '>=4.13.16'
+  hono@<4.12.18: '>=4.13.16'
+  hono@<4.12.7: '>=4.13.16'
+  hono@>=4.0.0 <4.12.34: '>=4.13.16'
+  hono@>=4.0.0 <=4.12.11: '>=4.13.16'
   image-size@>=0.6.3 <=2.0.2: '>=2.0.4'
   ip-address@<=10.1.0: '>=10.7.5'
   ip-address@<=10.3.0: '>=10.7.5'
@@ -103,7 +103,7 @@ overrides:
   vite@>=5.3.0 <=5.3.5: '>=8.3.5'
   vite@>=7.0.0 <=7.3.1: '>=8.3.5'
   vite@>=7.1.0 <=7.3.1: '>=8.3.5'
-  ws@>=8.0.0 <8.20.1: '>=8.22.0'
+  ws@>=8.0.0 <8.20.1: '>=8.22.1'
   xml2js@<0.5.0: '>=0.6.2'
   yaml@>=2.0.0 <2.8.3: '>=2.9.1'
 
@@ -2670,8 +2670,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  basic-ftp@6.2.3:
-    resolution: {integrity: sha512-T7GYtQ2eKJUN5YORG7A8u2WfB9JMN0a4/wl3MI64qq2qTRfa3FXzoNq0DDojZDkDyStcL+TkfKsz4JHEZx5kGQ==}
+  basic-ftp@6.2.6:
+    resolution: {integrity: sha512-0EjZCaodOz6yiokv2JA1VyKGNdGxULZ+GGlPgG9tm4d+T/bHtX1hUch8CumDneBfpIbiSdn7TaCGwpM+gwsOlw==}
     engines: {node: '>=10.0.0'}
 
   before-after-hook@4.0.0:
@@ -4354,6 +4354,7 @@ packages:
   image-size@0.5.5:
     resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please migrate to image-size@2.x
     hasBin: true
 
   image-size@2.0.4:
@@ -7584,8 +7585,8 @@ packages:
     engines: {node: '>=6', npm: '>=5'}
     hasBin: true
 
-  ws@8.22.0:
-    resolution: {integrity: sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==}
+  ws@8.22.1:
+    resolution: {integrity: sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -10323,7 +10324,7 @@ snapshots:
 
   baseline-browser-mapping@2.11.28: {}
 
-  basic-ftp@6.2.3: {}
+  basic-ftp@6.2.6: {}
 
   before-after-hook@4.0.0: {}
 
@@ -11933,7 +11934,7 @@ snapshots:
 
   get-uri@6.0.5:
     dependencies:
-      basic-ftp: 6.2.3
+      basic-ftp: 6.2.6
       data-uri-to-buffer: 6.0.2
       debug: 4.4.3
     transitivePeerDependencies:
@@ -14563,7 +14564,7 @@ snapshots:
       devtools-protocol: 0.0.1608973
       typed-query-selector: 2.12.3
       webdriver-bidi-protocol: 0.4.1
-      ws: 8.22.0
+      ws: 8.22.1
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -16437,7 +16438,7 @@ snapshots:
       too-wordy: 0.3.6
       weasel-words: 0.1.1
 
-  ws@8.22.0: {}
+  ws@8.22.1: {}
 
   xdg-basedir@5.1.0: {}
 
