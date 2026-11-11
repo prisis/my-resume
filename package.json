@@ -70,7 +70,7 @@
         "prettier": "^3.9.10",
         "semantic-release": "^25.0.9",
         "sort-package-json": "^3.7.1",
-        "tailwindcss": "^4.3.3",
+        "tailwindcss": "^4.3.5",
         "textlint": "^15.8.0",
         "typescript": "^7.0.2",
         "vite": "^8.3.5",
