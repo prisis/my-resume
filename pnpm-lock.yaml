@@ -6,12 +6,12 @@ settings:
 
 overrides:
   '@babel/runtime@<7.26.10': '>=8.0.10'
-  '@hono/node-server@<1.19.13': '>=2.1.5'
+  '@hono/node-server@<1.19.13': '>=2.1.6'
   ajv@<6.14.0: '>=8.20.0'
-  basic-ftp@<5.2.0: '>=6.2.3'
-  basic-ftp@<=5.2.1: '>=6.2.3'
+  basic-ftp@<5.2.0: '>=6.2.6'
+  basic-ftp@<=5.2.1: '>=6.2.6'
   basic-ftp@<=5.2.2: '>=5.3.1'
-  basic-ftp@<=5.3.0: '>=6.2.3'
+  basic-ftp@<=5.3.0: '>=6.2.6'
   brace-expansion@<1.1.13: '>=5.0.12'
   brace-expansion@>=2.0.0 <2.0.3: '>=5.0.12'
   brace-expansion@>=3.0.0 <5.0.7: '>=5.0.12'
@@ -29,23 +29,23 @@ overrides:
   file-type@>=13.0.0 <21.3.1: '>=21.3.4'
   flatted@<3.4.0: '>=3.4.4'
   flatted@<=3.4.1: '>=3.4.4'
-  follow-redirects@<=1.15.11: '>=1.16.2'
+  follow-redirects@<=1.15.11: '>=1.16.3'
   form-data@<2.5.4: '>=2.5.6'
   handlebars@>=4.0.0 <4.7.9: '>=4.7.10'
   handlebars@>=4.0.0 <=4.7.8: '>=4.7.10'
   handlebars@>=4.6.0 <=4.7.8: '>=4.7.10'
-  hono@<4.12.12: '>=4.13.14'
-  hono@<4.12.14: '>=4.13.14'
-  hono@<4.12.16: '>=4.13.14'
-  hono@<4.12.18: '>=4.13.14'
-  hono@<4.12.7: '>=4.13.14'
-  hono@>=4.0.0 <4.12.34: '>=4.13.14'
-  hono@>=4.0.0 <=4.12.11: '>=4.13.14'
+  hono@<4.12.12: '>=4.13.17'
+  hono@<4.12.14: '>=4.13.17'
+  hono@<4.12.16: '>=4.13.17'
+  hono@<4.12.18: '>=4.13.17'
+  hono@<4.12.7: '>=4.13.17'
+  hono@>=4.0.0 <4.12.34: '>=4.13.17'
+  hono@>=4.0.0 <=4.12.11: '>=4.13.17'
   image-size@>=0.6.3 <=2.0.2: '>=2.0.4'
-  ip-address@<=10.1.0: '>=10.7.5'
-  ip-address@<=10.3.0: '>=10.7.5'
-  ip-address@>=10.1.1 <=10.2.0: '>=10.7.5'
-  ip-address@>=10.1.1 <=10.2.1: '>=10.7.5'
+  ip-address@<=10.1.0: '>=10.7.6'
+  ip-address@<=10.3.0: '>=10.7.6'
+  ip-address@>=10.1.1 <=10.2.0: '>=10.7.6'
+  ip-address@>=10.1.1 <=10.2.1: '>=10.7.6'
   jpeg-js@<0.4.0: '>=0.4.4'
   jpeg-js@<0.4.4: '>=0.4.4'
   js-yaml@>=4.0.0 <4.1.1: '>=4.3.2'
@@ -86,11 +86,11 @@ overrides:
   tar-fs@>=2.0.0 <2.1.3: '>=2.1.5'
   tmp@<0.2.6: '>=0.2.7'
   tough-cookie@<4.1.3: '>=4.1.4'
-  undici@<6.23.0: '>=7.30.1'
-  undici@<6.24.0: '>=7.30.1'
-  undici@>=7.0.0 <7.24.0: '>=7.30.1'
-  undici@>=8.0.0 <8.5.0: '>=8.12.3'
-  undici@>=8.0.0 <8.9.0: '>=8.12.3'
+  undici@<6.23.0: '>=7.30.2'
+  undici@<6.24.0: '>=7.30.2'
+  undici@>=7.0.0 <7.24.0: '>=7.30.2'
+  undici@>=8.0.0 <8.5.0: '>=8.12.4'
+  undici@>=8.0.0 <8.9.0: '>=8.12.4'
   uuid@<11.1.1: '>=11.1.1'
   vite@<=5.4.19: '>=8.3.5'
   vite@>=5.0.0 <5.4.15: '>=8.3.5'
@@ -103,7 +103,7 @@ overrides:
   vite@>=5.3.0 <=5.3.5: '>=8.3.5'
   vite@>=7.0.0 <=7.3.1: '>=8.3.5'
   vite@>=7.1.0 <=7.3.1: '>=8.3.5'
-  ws@>=8.0.0 <8.20.1: '>=8.22.0'
+  ws@>=8.0.0 <8.20.1: '>=8.22.2'
   xml2js@<0.5.0: '>=0.6.2'
   yaml@>=2.0.0 <2.8.3: '>=2.9.1'
 
@@ -2670,8 +2670,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  basic-ftp@6.2.3:
-    resolution: {integrity: sha512-T7GYtQ2eKJUN5YORG7A8u2WfB9JMN0a4/wl3MI64qq2qTRfa3FXzoNq0DDojZDkDyStcL+TkfKsz4JHEZx5kGQ==}
+  basic-ftp@6.2.6:
+    resolution: {integrity: sha512-0EjZCaodOz6yiokv2JA1VyKGNdGxULZ+GGlPgG9tm4d+T/bHtX1hUch8CumDneBfpIbiSdn7TaCGwpM+gwsOlw==}
     engines: {node: '>=10.0.0'}
 
   before-after-hook@4.0.0:
@@ -3941,8 +3941,8 @@ packages:
   flatted@3.4.4:
     resolution: {integrity: sha512-5+ybhBZANEJxaH3X5evAFatUxLfEHSr7n6kYJ+1Qd0mUqr4eu9gIf6GDbWHf8RJijHrjjO8G+la14SlL2SeS1Q==}
 
-  follow-redirects@1.16.2:
-    resolution: {integrity: sha512-/kVP2U8z596Ia0gwFrwyIeo74ta5aVmSeU1FfAUMAmcEP5EP7zydmag3SLiN64NaRKef3lxsq7i/g7ltJQDGow==}
+  follow-redirects@1.16.3:
+    resolution: {integrity: sha512-toOSoqN6d51Wjf1aOFJYcoVv1aND9rj/CwjLU0Vz40oDuSpWDayCeKe4JpL5NL0WdFvoOOCI3BRo69HahjbR1A==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -4430,8 +4430,8 @@ packages:
     resolution: {integrity: sha512-2dYz766i9HprMBasCMvHMuazJ7u4WzhJwo5kb3iPSiW/iRYV6uPari3zHoqZlnuaR7V1bEiNMxikhp37rdBXbw==}
     engines: {node: '>=12'}
 
-  ip-address@10.7.5:
-    resolution: {integrity: sha512-t2v0rkILYv9WXmSL7TpAaU3HXgaFYOPUcH3QHgwQ++gpJuH3bqyMy4Fvt/DJCTKwzH3Cf+bAp5W/mFL39KPLzA==}
+  ip-address@10.7.6:
+    resolution: {integrity: sha512-00LYkM6byILa9eQIx6qoaXCM40xTLd56AZ4vyaPW3YTyb49VZYPo5xsiAq4tuQ54GH4R7gVdYScJ1B7B77PuTg==}
     engines: {node: '>= 12'}
 
   is-accessor-descriptor@1.0.2:
@@ -7170,12 +7170,12 @@ packages:
   undici-types@8.9.0:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
-  undici@8.11.2:
-    resolution: {integrity: sha512-u4UB2/IrKdU6lFxumHmmo1a3fCQO5tzQllRorfoRS63txhrB7xTpSn1PftwC4qEHkOaqP95fCWW4lJzwErwzhQ==}
-    engines: {node: '>=22.19.0'}
-
   undici@8.12.3:
     resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
+    engines: {node: '>=22.19.0'}
+
+  undici@8.12.4:
+    resolution: {integrity: sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==}
     engines: {node: '>=22.19.0'}
 
   unherit@3.0.1:
@@ -7585,8 +7585,8 @@ packages:
     engines: {node: '>=6', npm: '>=5'}
     hasBin: true
 
-  ws@8.22.0:
-    resolution: {integrity: sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==}
+  ws@8.22.2:
+    resolution: {integrity: sha512-/rEZ2ejown2N5gxVTHUu9bVVC7ttu0/Tgzf5hbTOixR3Fs7mbbXgn2DbdbcKgJOmpQMtrIUWivtYuVMnp/W/yA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -7719,7 +7719,7 @@ snapshots:
   '@actions/http-client@4.0.1':
     dependencies:
       tunnel: 0.0.6
-      undici: 8.11.2
+      undici: 8.12.3
 
   '@actions/io@3.0.2': {}
 
@@ -9196,7 +9196,7 @@ snapshots:
       p-filter: 4.1.0
       semantic-release: 25.0.9(typescript@7.0.2)
       tinyglobby: 0.2.17
-      undici: 8.12.3
+      undici: 8.12.4
       url-join: 5.0.0
     transitivePeerDependencies:
       - kerberos
@@ -10324,7 +10324,7 @@ snapshots:
 
   baseline-browser-mapping@2.11.28: {}
 
-  basic-ftp@6.2.3: {}
+  basic-ftp@6.2.6: {}
 
   before-after-hook@4.0.0: {}
 
@@ -10487,7 +10487,7 @@ snapshots:
 
   centra@2.7.0:
     dependencies:
-      follow-redirects: 1.16.2
+      follow-redirects: 1.16.3
     transitivePeerDependencies:
       - debug
 
@@ -11821,7 +11821,7 @@ snapshots:
 
   flatted@3.4.4: {}
 
-  follow-redirects@1.16.2: {}
+  follow-redirects@1.16.3: {}
 
   for-each@0.3.5:
     dependencies:
@@ -11934,7 +11934,7 @@ snapshots:
 
   get-uri@6.0.5:
     dependencies:
-      basic-ftp: 6.2.3
+      basic-ftp: 6.2.6
       data-uri-to-buffer: 6.0.2
       debug: 4.4.3
     transitivePeerDependencies:
@@ -12379,7 +12379,7 @@ snapshots:
       from2: 2.3.0
       p-is-promise: 3.0.0
 
-  ip-address@10.7.5: {}
+  ip-address@10.7.6: {}
 
   is-accessor-descriptor@1.0.2:
     dependencies:
@@ -14564,7 +14564,7 @@ snapshots:
       devtools-protocol: 0.0.1608973
       typed-query-selector: 2.12.3
       webdriver-bidi-protocol: 0.4.1
-      ws: 8.22.0
+      ws: 8.22.2
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -15221,7 +15221,7 @@ snapshots:
 
   socks@2.8.10:
     dependencies:
-      ip-address: 10.7.5
+      ip-address: 10.7.6
       smart-buffer: 4.2.0
 
   sort-object-keys@2.1.0: {}
@@ -15884,9 +15884,9 @@ snapshots:
   undici-types@8.9.0:
     optional: true
 
-  undici@8.11.2: {}
-
   undici@8.12.3: {}
+
+  undici@8.12.4: {}
 
   unherit@3.0.1: {}
 
@@ -16438,7 +16438,7 @@ snapshots:
       too-wordy: 0.3.6
       weasel-words: 0.1.1
 
-  ws@8.22.0: {}
+  ws@8.22.2: {}
 
   xdg-basedir@5.1.0: {}
 
