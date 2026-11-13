@@ -41,7 +41,7 @@ overrides:
   hono@<4.12.7: '>=4.13.17'
   hono@>=4.0.0 <4.12.34: '>=4.13.17'
   hono@>=4.0.0 <=4.12.11: '>=4.13.17'
-  image-size@>=0.6.3 <=2.0.2: '>=2.0.4'
+  image-size@>=0.6.3 <=2.0.2: '>=2.1.0'
   ip-address@<=10.1.0: '>=10.7.6'
   ip-address@<=10.3.0: '>=10.7.6'
   ip-address@>=10.1.1 <=10.2.0: '>=10.7.6'
@@ -4357,8 +4357,8 @@ packages:
     deprecated: Please migrate to image-size@2.x
     hasBin: true
 
-  image-size@2.0.4:
-    resolution: {integrity: sha512-QRUkFFsRV/6fuESxb9Vkq+a0LkSrgKXuc2NEqfikiXxxN/G3tjWt5EVUlMaImRBZRZK/jRBEbYvpPYZL8t08Zw==}
+  image-size@2.1.0:
+    resolution: {integrity: sha512-6Dbisa46RsgeAh3TMSFL2i8+uIFG+/LRmz6Q2oscSJJvXo1sOw3EgNO4M8jPl1P+gR1atJLDPrpclX4IHz63sA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -11712,7 +11712,7 @@ snapshots:
     dependencies:
       clone: 2.1.2
       colors: 1.4.0
-      image-size: 2.0.4
+      image-size: 2.1.0
       jimp: 0.16.13
       jsontoxml: 1.0.1
       lodash.defaultsdeep: 4.6.1
@@ -12305,7 +12305,7 @@ snapshots:
 
   image-size@0.5.5: {}
 
-  image-size@2.0.4: {}
+  image-size@2.1.0: {}
 
   import-fresh@3.3.1:
     dependencies:
