@@ -153,7 +153,7 @@ importers:
         version: 29.0.1(@eslint/css@2.0.1)(@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@10.14.0(jiti@2.6.1))(typescript@7.0.2))(eslint@10.14.0(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/utils@8.71.1(eslint@10.14.0(jiti@2.6.1))(typescript@7.0.2))(@visulima/yaml@1.0.0)(eslint@10.14.0(jiti@2.6.1))(json5@2.2.3)(jsonc-parser@3.3.1)(typescript@7.0.2)(vitest@4.1.12(@types/node@26.6.5)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)))(yaml@2.9.1)
       '@anolilab/prettier-config':
         specifier: ^10.0.4
-        version: 10.0.4(prettier@3.9.10)
+        version: 10.0.4(prettier@3.10.1)
       '@anolilab/semantic-release-preset':
         specifier: ^12.1.2
         version: 12.1.2(@semantic-release/npm@13.2.0(semantic-release@25.0.9(typescript@7.0.2)))(semantic-release@25.0.9(typescript@7.0.2))(yaml@2.9.1)
@@ -212,8 +212,8 @@ importers:
         specifier: ^16.2.0
         version: 16.2.0(postcss@8.5.32)
       prettier:
-        specifier: ^3.9.10
-        version: 3.9.10
+        specifier: ^3.10.1
+        version: 3.10.1
       semantic-release:
         specifier: ^25.0.9
         version: 25.0.9(typescript@7.0.2)
@@ -6144,8 +6144,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -7798,9 +7798,9 @@ snapshots:
       - vitest
       - yaml
 
-  '@anolilab/prettier-config@10.0.4(prettier@3.9.10)':
+  '@anolilab/prettier-config@10.0.4(prettier@3.10.1)':
     dependencies:
-      prettier: 3.9.10
+      prettier: 3.10.1
 
   '@anolilab/resume-schema@2.0.3': {}
 
@@ -14497,7 +14497,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   pretty-ms@9.3.1:
     dependencies:
